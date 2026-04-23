@@ -6,7 +6,13 @@
 ## Funktionen
 - [ ] Hauptmenü -> fett AKADEMUS, verschiedene Funktionen
 - [ ] Stochastik, Geo, Ana und gemischt
-- [ ] am besten mit latex-Einbindung
+- [ ] LaTeX Einbettung für Karten bzw. Einbettung fertiger PDF würde auch reichen?
+- [ ] Doppelclick auf Bildschirm um Lösung zu überspringen
+
+## mid term
+- [ ] Listenverzeichnis aller Karten anlegen mit Kartennummer
+- [ ] Jede Karte soll eindeutig mit Stichwort belegt sein, um sie in Listenverzeichnis suchen zu können. (Durch KI Stichwort und Nummer auslesen lassen für Datenbank?)
+
 
 
 

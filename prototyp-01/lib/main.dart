@@ -108,6 +108,8 @@ class PlaceholderScreen extends StatelessWidget {
 
 // ─── TOPIC SELECTION SCREEN ──────────────────────────────────────────────────
 
+// ─── TOPIC SELECTION SCREEN ──────────────────────────────────────────────────
+
 class TopicSelectionScreen extends StatelessWidget {
   const TopicSelectionScreen({super.key});
 
@@ -115,7 +117,7 @@ class TopicSelectionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridSelectionScreen(
       title: 'Thema wählen',
-      // PASS YOUR INDIVIDUAL IMAGE HERE
+      // Corrected parameter name from 'imagePath' to 'backgroundPath'
       backgroundPath: 'assets/images/background_male.jpg',
       items: const [
         {'label': 'Analysis', 'icon': Icons.show_chart},
@@ -128,6 +130,7 @@ class TopicSelectionScreen extends StatelessWidget {
     );
   }
 }
+
 // ─── CARD DATA ───────────────────────────────────────────────────────────────
 
 const Map<String, List<Map<String, String>>> topicCards = {
@@ -284,81 +287,85 @@ class _FancyMathCardsState extends State<FancyMathCards>
     final progress = (_currentIndex + 1) / _cards.length;
 
     return Scaffold(
+      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: GestureDetector(
           onTap: () => _goHome(context),
           child: Image.asset(
             'assets/images/akademus_logo.jpg',
-            height: 80,
+            height: 60,
             fit: BoxFit.contain,
           ),
         ),
-        toolbarHeight: 100,
+        toolbarHeight: 70,
         backgroundColor: Colors.white,
-        scrolledUnderElevation: 0,
         foregroundColor: myOrange,
       ),
+      // Wrap the content in _AppBackground to add the background image
       body: _AppBackground(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
             children: [
-              const SizedBox(height: 20),
+              const SizedBox(height: 8),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(4),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 6,
+                  backgroundColor: Colors.grey.withOpacity(
+                    0.5,
+                  ), // Slightly transparent to show background
+                  valueColor: AlwaysStoppedAnimation<Color>(myOrange),
+                ),
+              ),
+              const SizedBox(height: 12),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  _StatChip(
-                    icon: Icons.check_circle,
-                    label: '$_knownCount',
-                    color: myGreen,
-                  ),
-                  _StatChip(
-                    icon: Icons.local_fire_department,
-                    label: '$_currentStreak',
-                    color: myOrange,
-                  ),
-                  _StatChip(
-                    icon: Icons.cancel,
-                    label: '$_unknownCount',
-                    color: myRed,
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         widget.topic,
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 14,
                           fontWeight: FontWeight.bold,
                           color: myBlue,
                         ),
                       ),
                       Text(
-                        '${_currentIndex + 1} / ${_cards.length}',
-                        style: TextStyle(fontSize: 14, color: Colors.grey[600]),
+                        '${_currentIndex + 1}/${_cards.length}',
+                        style: TextStyle(fontSize: 12, color: Colors.grey[800]),
                       ),
                     ],
                   ),
-                  const SizedBox(height: 8),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: LinearProgressIndicator(
-                      value: progress,
-                      minHeight: 10,
-                      backgroundColor: Colors.grey[400],
-                      valueColor: AlwaysStoppedAnimation<Color>(myOrange),
-                    ),
+                  Row(
+                    children: [
+                      _CompactStat(
+                        icon: Icons.check_circle,
+                        label: '$_knownCount',
+                        color: myGreen,
+                      ),
+                      const SizedBox(width: 8),
+                      _CompactStat(
+                        icon: Icons.local_fire_department,
+                        label: '$_currentStreak',
+                        color: myOrange,
+                      ),
+                      const SizedBox(width: 8),
+                      _CompactStat(
+                        icon: Icons.cancel,
+                        label: '$_unknownCount',
+                        color: myRed,
+                      ),
+                    ],
                   ),
                 ],
               ),
-              const SizedBox(height: 24),
-              // "Tippe zum Drehen" text removed here to maximize space
+              const SizedBox(height: 16),
+
               GestureDetector(
                 onTap: _flipCard,
                 child: AnimatedBuilder(
@@ -383,7 +390,8 @@ class _FancyMathCardsState extends State<FancyMathCards>
                   },
                 ),
               ),
-              const SizedBox(height: 32),
+
+              const SizedBox(height: 24),
               AnimatedOpacity(
                 opacity: _isFront ? 0.0 : 1.0,
                 duration: const Duration(milliseconds: 300),
@@ -393,16 +401,16 @@ class _FancyMathCardsState extends State<FancyMathCards>
                     children: [
                       Expanded(
                         child: _RatingButton(
-                          label: 'Nicht gewusst',
+                          label: 'Falsch',
                           icon: Icons.close,
                           color: myRed,
                           onPressed: () => _rate(false),
                         ),
                       ),
-                      const SizedBox(width: 16),
+                      const SizedBox(width: 12),
                       Expanded(
                         child: _RatingButton(
-                          label: 'Gewusst!',
+                          label: 'Richtig',
                           icon: Icons.check,
                           color: myGreen,
                           onPressed: () => _rate(true),
@@ -412,7 +420,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 20),
             ],
           ),
         ),
@@ -467,9 +475,15 @@ class _FlashcardSideState extends State<FlashcardSide> {
 
   @override
   Widget build(BuildContext context) {
+    double dynamicHeight = MediaQuery.of(context).size.height * 0.70;
+
+    // 2. Clamp it: Min 400px, Max 600px (adjust these numbers as you like)
+    // This prevents it from being tiny on old phones or huge on a Mac.
+    double finalHeight = dynamicHeight.clamp(400.0, 600.0);
+
     return Container(
       width: double.infinity,
-      height: 450,
+      height: finalHeight,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
@@ -578,11 +592,13 @@ class _BouncingArrowState extends State<_BouncingArrow>
 
 // ─── HELPER WIDGETS ──────────────────────────────────────────────────────────
 
-class _StatChip extends StatelessWidget {
+class _CompactStat extends StatelessWidget {
   final IconData icon;
   final String label;
   final Color color;
-  const _StatChip({
+
+  // Ensure the constructor correctly initializes these fields
+  const _CompactStat({
     required this.icon,
     required this.label,
     required this.color,
@@ -590,27 +606,24 @@ class _StatChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      decoration: BoxDecoration(
-        color: color.withOpacity(0.12),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: color.withOpacity(0.4)),
-      ),
-      child: Row(
-        children: [
-          Icon(icon, color: color, size: 18),
-          const SizedBox(width: 6),
-          Text(
-            label,
-            style: TextStyle(
-              color: color,
-              fontWeight: FontWeight.bold,
-              fontSize: 16,
-            ),
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(
+          icon,
+          color: color,
+          size: 16,
+        ), // 'color' is now defined from the class property
+        const SizedBox(width: 2),
+        Text(
+          label, // 'label' is now defined from the class property
+          style: TextStyle(
+            color: color,
+            fontWeight: FontWeight.bold,
+            fontSize: 14,
           ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }

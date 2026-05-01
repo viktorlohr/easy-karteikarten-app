@@ -300,6 +300,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
         toolbarHeight: 70,
         backgroundColor: Colors.white,
         foregroundColor: myOrange,
+        scrolledUnderElevation: 0,
       ),
       // Wrap the content in _AppBackground to add the background image
       body: _AppBackground(
@@ -474,6 +475,8 @@ class _FlashcardSideState extends State<FlashcardSide> {
   }
 
   @override
+  // Inside class _FlashcardSideState in main.dart
+  @override
   Widget build(BuildContext context) {
     double dynamicHeight = MediaQuery.of(context).size.height * 0.70;
     double finalHeight = dynamicHeight.clamp(400.0, 600.0);
@@ -496,7 +499,6 @@ class _FlashcardSideState extends State<FlashcardSide> {
         borderRadius: BorderRadius.circular(20),
         child: Stack(
           children: [
-            // Using LayoutBuilder to ensure the Center fills the available height
             LayoutBuilder(
               builder: (context, constraints) {
                 return SingleChildScrollView(
@@ -505,23 +507,19 @@ class _FlashcardSideState extends State<FlashcardSide> {
                   padding: const EdgeInsets.all(16.0),
                   child: ConstrainedBox(
                     constraints: BoxConstraints(
-                      // This forces the child to be at least as tall as the card
-                      minHeight:
-                          constraints.maxHeight - 32, // Subtracting padding
+                      minHeight: constraints.maxHeight - 32,
                     ),
                     child: Center(
-                      // Center handles the "center if space" logic
+                      // MOVE THE TRANSFORM HERE
                       child: Transform(
+                        alignment: Alignment.center,
                         transform: widget.isBack
                             ? Matrix4.rotationY(pi)
                             : Matrix4.identity(),
-                        alignment: Alignment.center,
                         child: Image.asset(
                           widget.imagePath,
                           width: double.infinity,
                           fit: BoxFit.fitWidth,
-                          // alignment: Alignment.topCenter is no longer needed
-                          // as Center/ConstrainedBox handles positioning
                           errorBuilder: (context, error, stackTrace) =>
                               const Center(
                                 child: Icon(
@@ -536,7 +534,7 @@ class _FlashcardSideState extends State<FlashcardSide> {
                 );
               },
             ),
-            // Scroll hint arrow
+            // Scroll hint arrow remains unflipped as it's outside the scroll view
             AnimatedOpacity(
               opacity: _showArrow ? 1.0 : 0.0,
               duration: const Duration(milliseconds: 300),

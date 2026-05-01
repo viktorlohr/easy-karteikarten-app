@@ -3,6 +3,10 @@
 \usepackage[margin=0.5cm, paperwidth=8cm, paperheight=10in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
+% --- THE CROP SETTINGS ---
+\usepackage[active, tightpage]{preview}
+\renewcommand{\PreviewBorder}{5pt} % Adds a little padding around the crop
+% -------------------------
 \usepackage{csquotes}
 \usepackage[default]{sourcesanspro}
 \usepackage{scrlayer-scrpage}
@@ -37,6 +41,7 @@
 % Global Styling for Mobile Plots
 \tikzset{
     every picture/.append style={
+        line width=1.5pt,
         line cap=round,
         line join=round
     }
@@ -94,9 +99,8 @@
 }
 
 \pagestyle{empty}
-
 \begin{document}
-
+\begin{preview}
 \begin{marked}
     Eine Funktion $f(x)$ hat eine \textbf{Polstelle} bei $x_0$, 
     wenn der \emph{Nenner} dort gegen \emph{Null} konvergiert,
@@ -115,13 +119,15 @@ Es gilt:
 \begin{axis}
     % The plot inherits width, color (set locally), and thickness from global settings
     \addplot [domain=-3:1.8, color=myBlue] {3/(x-2)};
-    \addplot [domain=2.2:7, color=myBlue] {3/(x-2)};
+
+    \addplot [domain=2.2:7, color=myBlue] {3/(x-2)}
+        node[near end, above right] {$G_f$};
     
     % Asymptote guide
-    \draw [dashed, myOrange, line width=1pt] (axis cs:2,-10) -- 
-    node [near start, right, font=\small] {$x=2$}
+    \draw [dashed, myOrange] (axis cs:2,-10) -- 
+    node [near start, right] {$x=2$}
     (axis cs:2,10);
 \end{axis}
 \end{tikzpicture}
-
+\end{preview}
 \end{document}

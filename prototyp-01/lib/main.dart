@@ -135,7 +135,7 @@ class TopicSelectionScreen extends StatelessWidget {
 
 const Map<String, List<Map<String, String>>> topicCards = {
   'Analysis': [
-    {'front': 'assets/test/test.webp', 'back': 'assets/test/test.webp'},
+    {'front': 'assets/test/test_front.webp', 'back': 'assets/test/test.webp'},
   ],
 };
 
@@ -476,9 +476,6 @@ class _FlashcardSideState extends State<FlashcardSide> {
   @override
   Widget build(BuildContext context) {
     double dynamicHeight = MediaQuery.of(context).size.height * 0.70;
-
-    // 2. Clamp it: Min 400px, Max 600px (adjust these numbers as you like)
-    // This prevents it from being tiny on old phones or huge on a Mac.
     double finalHeight = dynamicHeight.clamp(400.0, 600.0);
 
     return Container(
@@ -499,25 +496,45 @@ class _FlashcardSideState extends State<FlashcardSide> {
         borderRadius: BorderRadius.circular(20),
         child: Stack(
           children: [
-            SingleChildScrollView(
-              controller: _scrollController,
-              physics: const BouncingScrollPhysics(),
-              padding: const EdgeInsets.all(16.0),
-              child: Transform(
-                transform: widget.isBack
-                    ? (Matrix4.identity()..rotateY(pi))
-                    : Matrix4.identity(),
-                alignment: Alignment.center,
-                child: Image.asset(
-                  widget.imagePath,
-                  width: double.infinity,
-                  fit: BoxFit.fitWidth,
-                  alignment: Alignment.topCenter,
-                  errorBuilder: (context, error, stackTrace) => const Center(
-                    child: Icon(Icons.broken_image, color: Colors.grey),
+            // Using LayoutBuilder to ensure the Center fills the available height
+            LayoutBuilder(
+              builder: (context, constraints) {
+                return SingleChildScrollView(
+                  controller: _scrollController,
+                  physics: const BouncingScrollPhysics(),
+                  padding: const EdgeInsets.all(16.0),
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(
+                      // This forces the child to be at least as tall as the card
+                      minHeight:
+                          constraints.maxHeight - 32, // Subtracting padding
+                    ),
+                    child: Center(
+                      // Center handles the "center if space" logic
+                      child: Transform(
+                        transform: widget.isBack
+                            ? Matrix4.rotationY(pi)
+                            : Matrix4.identity(),
+                        alignment: Alignment.center,
+                        child: Image.asset(
+                          widget.imagePath,
+                          width: double.infinity,
+                          fit: BoxFit.fitWidth,
+                          // alignment: Alignment.topCenter is no longer needed
+                          // as Center/ConstrainedBox handles positioning
+                          errorBuilder: (context, error, stackTrace) =>
+                              const Center(
+                                child: Icon(
+                                  Icons.broken_image,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-              ),
+                );
+              },
             ),
             // Scroll hint arrow
             AnimatedOpacity(

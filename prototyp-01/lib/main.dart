@@ -122,10 +122,7 @@ class TopicSelectionScreen extends StatelessWidget {
 
 const Map<String, List<Map<String, String>>> topicCards = {
   'Analysis': [
-    {
-      'front': 'assets/images/polstellen_test.webp',
-      'back': 'assets/images/polstellen_test.webp',
-    },
+    {'front': 'assets/test/test.webp', 'back': 'assets/test/test.webp'},
   ],
 };
 
@@ -172,7 +169,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
 
   int _currentIndex = 0;
   bool _isFront = true;
-  bool _isExpanded = false;
 
   int _knownCount = 0;
   int _unknownCount = 0;
@@ -439,7 +435,7 @@ class FlashcardSide extends StatelessWidget {
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeInOut,
       width: double.infinity,
-      height: isExpanded ? 550 : 250, // Standard card heights
+      height: isExpanded ? 500 : 250,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(25),
@@ -453,55 +449,47 @@ class FlashcardSide extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(25),
-        child: Stack(
+        child: Column(
           children: [
-            // 1. The Flipping Content (This rotates)
-            Transform(
-              transform: isBack
-                  ? (Matrix4.identity()..rotateY(pi))
-                  : Matrix4.identity(),
-              alignment: Alignment.center,
-              child: Padding(
-                padding: const EdgeInsets.only(
-                  top: 12.0,
-                  left: 8.0,
-                  right: 8.0,
-                  bottom: 8.0,
-                ),
-                child: Image.asset(
-                  imagePath,
-                  width: double.infinity,
-                  fit: BoxFit.fitWidth,
-                  alignment: Alignment.topCenter,
-                  errorBuilder: (context, error, stackTrace) =>
-                      const Icon(Icons.broken_image, size: 50),
+            // Wrap the image/content in an Expanded and SingleChildScrollView
+            Expanded(
+              child: SingleChildScrollView(
+                physics: const BouncingScrollPhysics(),
+                padding: const EdgeInsets.all(12.0),
+                child: Transform(
+                  transform: isBack
+                      ? (Matrix4.identity()..rotateY(pi))
+                      : Matrix4.identity(),
+                  alignment: Alignment.center,
+                  child: Image.asset(
+                    imagePath,
+                    width: double.infinity,
+                    fit: BoxFit.fitWidth,
+                    alignment: Alignment.topCenter,
+                    errorBuilder: (context, error, stackTrace) =>
+                        const Icon(Icons.broken_image, size: 50),
+                  ),
                 ),
               ),
             ),
 
-            // 2. The Static Expand Button (This stays put)
-            Positioned(
-              bottom: 12,
-              right: 12,
-              // We removed the Transform widget from here
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.grey[200]!.withOpacity(0.9),
-                  shape: BoxShape.circle,
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.1),
-                      blurRadius: 4,
-                      offset: const Offset(0, 2),
-                    ),
-                  ],
-                ),
-                child: IconButton(
-                  icon: Icon(
-                    isExpanded ? Icons.unfold_less : Icons.unfold_more,
-                    color: const Color(0xFF264358),
+            // Fixed action bar at the bottom of the card for the expand button
+            Padding(
+              padding: const EdgeInsets.only(right: 12, bottom: 12),
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.grey[200]!.withOpacity(0.9),
+                    shape: BoxShape.circle,
                   ),
-                  onPressed: onExpandPressed,
+                  child: IconButton(
+                    icon: Icon(
+                      isExpanded ? Icons.unfold_less : Icons.unfold_more,
+                      color: const Color(0xFF264358),
+                    ),
+                    onPressed: onExpandPressed,
+                  ),
                 ),
               ),
             ),
@@ -511,7 +499,6 @@ class FlashcardSide extends StatelessWidget {
     );
   }
 }
-
 // ─── HELPER WIDGETS ──────────────────────────────────────────────────────────
 
 class _StatChip extends StatelessWidget {

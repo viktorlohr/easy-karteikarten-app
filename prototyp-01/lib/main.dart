@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
         ),
         toolbarHeight: 100,
         backgroundColor: Colors.white,
+        scrolledUnderElevation: 0,
         foregroundColor: myOrange,
       ),
       body: Stack(
@@ -90,8 +91,17 @@ class PlaceholderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
-      body: Center(child: Text('$title kommt bald!')),
+      appBar: AppBar(
+        title: Image.asset(
+          'assets/images/akademus_logo.jpg',
+          height: 80,
+          fit: BoxFit.contain,
+        ),
+        toolbarHeight: 100,
+        backgroundColor: Colors.white,
+        scrolledUnderElevation: 0,
+      ),
+      body: _AppBackground(child: Center(child: Text('$title kommt bald!'))),
     );
   }
 }
@@ -105,7 +115,8 @@ class TopicSelectionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridSelectionScreen(
       title: 'Thema wählen',
-      subtitle: 'Wähle ein Thema, um mit den Karteikarten zu beginnen.',
+      // PASS YOUR INDIVIDUAL IMAGE HERE
+      backgroundPath: 'assets/images/background_male.jpg',
       items: const [
         {'label': 'Analysis', 'icon': Icons.show_chart},
         {'label': 'Geometrie', 'icon': Icons.square_foot},
@@ -117,7 +128,6 @@ class TopicSelectionScreen extends StatelessWidget {
     );
   }
 }
-
 // ─── CARD DATA ───────────────────────────────────────────────────────────────
 
 const Map<String, List<Map<String, String>>> topicCards = {
@@ -149,6 +159,31 @@ class SessionResult {
     required this.unknown,
     required this.maxStreak,
   });
+}
+
+// ─── SHARED BACKGROUND ───────────────────────────────────────────────────────
+
+class _AppBackground extends StatelessWidget {
+  final Widget child;
+  const _AppBackground({required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/images/gelb_verlauf.jpg'),
+              fit: BoxFit.cover,
+            ),
+          ),
+        ),
+        Container(color: Colors.white.withOpacity(0.8)),
+        child,
+      ],
+    );
+  }
 }
 
 // ─── FLASHCARD SCREEN ────────────────────────────────────────────────────────
@@ -230,7 +265,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
       } else {
         _currentIndex++;
         _isFront = true;
-        _isExpanded = false;
         _controller.reset();
       }
     });
@@ -239,29 +273,10 @@ class _FancyMathCardsState extends State<FancyMathCards>
   void _goHome(BuildContext context) =>
       Navigator.popUntil(context, (route) => route.isFirst);
 
-  // ─── ADDED BUILD METHODS ───────────────────────────────────────────────────
-
-  Widget _buildFront(Map<String, String> card) {
-    return FlashcardSide(
-      imagePath: card['front']!,
-      isExpanded: _isExpanded,
-      onExpandPressed: () => setState(() => _isExpanded = !_isExpanded),
-    );
-  }
-
-  Widget _buildBack(Map<String, String> card) {
-    return FlashcardSide(
-      imagePath: card['back']!,
-      isExpanded: _isExpanded,
-      isBack: true,
-      onExpandPressed: () => setState(() => _isExpanded = !_isExpanded),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     if (_cards.isEmpty) {
-      return Scaffold(
+      return const Scaffold(
         body: Center(child: Text("Keine Karten für dieses Thema.")),
       );
     }
@@ -269,7 +284,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
     final progress = (_currentIndex + 1) / _cards.length;
 
     return Scaffold(
-      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: GestureDetector(
           onTap: () => _goHome(context),
@@ -281,126 +295,126 @@ class _FancyMathCardsState extends State<FancyMathCards>
         ),
         toolbarHeight: 100,
         backgroundColor: Colors.white,
+        scrolledUnderElevation: 0,
         foregroundColor: myOrange,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 24),
-        child: Column(
-          children: [
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                _StatChip(
-                  icon: Icons.check_circle,
-                  label: '$_knownCount',
-                  color: myGreen,
-                ),
-                _StatChip(
-                  icon: Icons.local_fire_department,
-                  label: '$_currentStreak',
-                  color: myOrange,
-                ),
-                _StatChip(
-                  icon: Icons.cancel,
-                  label: '$_unknownCount',
-                  color: myRed,
-                ),
-              ],
-            ),
-            const SizedBox(height: 16),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      widget.topic,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        color: myBlue,
+      body: _AppBackground(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: Column(
+            children: [
+              const SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  _StatChip(
+                    icon: Icons.check_circle,
+                    label: '$_knownCount',
+                    color: myGreen,
+                  ),
+                  _StatChip(
+                    icon: Icons.local_fire_department,
+                    label: '$_currentStreak',
+                    color: myOrange,
+                  ),
+                  _StatChip(
+                    icon: Icons.cancel,
+                    label: '$_unknownCount',
+                    color: myRed,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        widget.topic,
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: myBlue,
+                        ),
                       ),
+                      Text(
+                        '${_currentIndex + 1} / ${_cards.length}',
+                        style: TextStyle(fontSize: 14, color: Colors.grey[600]),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: LinearProgressIndicator(
+                      value: progress,
+                      minHeight: 10,
+                      backgroundColor: Colors.grey[400],
+                      valueColor: AlwaysStoppedAnimation<Color>(myOrange),
                     ),
-                    Text(
-                      '${_currentIndex + 1} / ${_cards.length}',
-                      style: TextStyle(fontSize: 14, color: Colors.grey[600]),
-                    ),
-                  ],
+                  ),
+                ],
+              ),
+              const SizedBox(height: 24),
+              // "Tippe zum Drehen" text removed here to maximize space
+              GestureDetector(
+                onTap: _flipCard,
+                child: AnimatedBuilder(
+                  animation: _animation,
+                  builder: (context, child) {
+                    final angle = _animation.value * pi;
+                    return Transform(
+                      transform: Matrix4.identity()
+                        ..setEntry(3, 2, 0.001)
+                        ..rotateY(angle),
+                      alignment: Alignment.center,
+                      child: angle < pi / 2
+                          ? FlashcardSide(
+                              imagePath: card['front']!,
+                              isBack: false,
+                            )
+                          : FlashcardSide(
+                              imagePath: card['back']!,
+                              isBack: true,
+                            ),
+                    );
+                  },
                 ),
-                const SizedBox(height: 8),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: LinearProgressIndicator(
-                    value: progress,
-                    minHeight: 10,
-                    backgroundColor: Colors.grey[400],
-                    valueColor: AlwaysStoppedAnimation<Color>(myOrange),
+              ),
+              const SizedBox(height: 32),
+              AnimatedOpacity(
+                opacity: _isFront ? 0.0 : 1.0,
+                duration: const Duration(milliseconds: 300),
+                child: IgnorePointer(
+                  ignoring: _isFront,
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: _RatingButton(
+                          label: 'Nicht gewusst',
+                          icon: Icons.close,
+                          color: myRed,
+                          onPressed: () => _rate(false),
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: _RatingButton(
+                          label: 'Gewusst!',
+                          icon: Icons.check,
+                          color: myGreen,
+                          onPressed: () => _rate(true),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-              ],
-            ),
-            const SizedBox(height: 24),
-            Text(
-              _isFront
-                  ? 'Tippe zum Drehen • Expand für Details'
-                  : 'Kanntest du die Antwort?',
-              style: TextStyle(fontSize: 13, color: Colors.grey[600]),
-            ),
-            const SizedBox(height: 20),
-
-            GestureDetector(
-              onTap: _flipCard,
-              onDoubleTap: () => setState(() => _isExpanded = !_isExpanded),
-              child: AnimatedBuilder(
-                animation: _animation,
-                builder: (context, child) {
-                  final angle = _animation.value * pi;
-                  return Transform(
-                    transform: Matrix4.identity()
-                      ..setEntry(3, 2, 0.001)
-                      ..rotateY(angle),
-                    alignment: Alignment.center,
-                    child: angle < pi / 2
-                        ? _buildFront(card) // Now using the helper method
-                        : _buildBack(card), // Now using the helper method
-                  );
-                },
               ),
-            ),
-
-            const SizedBox(height: 32),
-            AnimatedOpacity(
-              opacity: _isFront ? 0.0 : 1.0,
-              duration: const Duration(milliseconds: 300),
-              child: IgnorePointer(
-                ignoring: _isFront,
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: _RatingButton(
-                        label: 'Nicht gewusst',
-                        icon: Icons.close,
-                        color: myRed,
-                        onPressed: () => _rate(false),
-                      ),
-                    ),
-                    const SizedBox(width: 16),
-                    Expanded(
-                      child: _RatingButton(
-                        label: 'Gewusst!',
-                        icon: Icons.check,
-                        color: myGreen,
-                        onPressed: () => _rate(true),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            const SizedBox(height: 40),
-          ],
+              const SizedBox(height: 40),
+            ],
+          ),
         ),
       ),
     );
@@ -415,81 +429,91 @@ class _FancyMathCardsState extends State<FancyMathCards>
 
 // ─── FLASHCARD SIDE BLUEPRINT ───────────────────────────────────────────────
 
-class FlashcardSide extends StatelessWidget {
+class FlashcardSide extends StatefulWidget {
   final String imagePath;
-  final bool isExpanded;
   final bool isBack;
-  final VoidCallback onExpandPressed;
 
   const FlashcardSide({
     super.key,
     required this.imagePath,
-    required this.isExpanded,
-    required this.onExpandPressed,
     this.isBack = false,
   });
 
   @override
+  State<FlashcardSide> createState() => _FlashcardSideState();
+}
+
+class _FlashcardSideState extends State<FlashcardSide> {
+  final ScrollController _scrollController = ScrollController();
+  bool _showArrow = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _scrollController.addListener(() {
+      if (_scrollController.offset > 10 && _showArrow) {
+        setState(() => _showArrow = false);
+      } else if (_scrollController.offset <= 10 && !_showArrow) {
+        setState(() => _showArrow = true);
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return AnimatedContainer(
-      duration: const Duration(milliseconds: 300),
-      curve: Curves.easeInOut,
+    return Container(
       width: double.infinity,
-      height: isExpanded ? 500 : 250,
+      height: 450,
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(25),
+        borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 10,
+            color: Colors.black.withOpacity(0.08),
+            blurRadius: 12,
             offset: const Offset(0, 4),
           ),
         ],
       ),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(25),
-        child: Column(
+        borderRadius: BorderRadius.circular(20),
+        child: Stack(
           children: [
-            // Wrap the image/content in an Expanded and SingleChildScrollView
-            Expanded(
-              child: SingleChildScrollView(
-                physics: const BouncingScrollPhysics(),
-                padding: const EdgeInsets.all(12.0),
-                child: Transform(
-                  transform: isBack
-                      ? (Matrix4.identity()..rotateY(pi))
-                      : Matrix4.identity(),
-                  alignment: Alignment.center,
-                  child: Image.asset(
-                    imagePath,
-                    width: double.infinity,
-                    fit: BoxFit.fitWidth,
-                    alignment: Alignment.topCenter,
-                    errorBuilder: (context, error, stackTrace) =>
-                        const Icon(Icons.broken_image, size: 50),
+            SingleChildScrollView(
+              controller: _scrollController,
+              physics: const BouncingScrollPhysics(),
+              padding: const EdgeInsets.all(16.0),
+              child: Transform(
+                transform: widget.isBack
+                    ? (Matrix4.identity()..rotateY(pi))
+                    : Matrix4.identity(),
+                alignment: Alignment.center,
+                child: Image.asset(
+                  widget.imagePath,
+                  width: double.infinity,
+                  fit: BoxFit.fitWidth,
+                  alignment: Alignment.topCenter,
+                  errorBuilder: (context, error, stackTrace) => const Center(
+                    child: Icon(Icons.broken_image, color: Colors.grey),
                   ),
                 ),
               ),
             ),
-
-            // Fixed action bar at the bottom of the card for the expand button
-            Padding(
-              padding: const EdgeInsets.only(right: 12, bottom: 12),
+            // Scroll hint arrow
+            AnimatedOpacity(
+              opacity: _showArrow ? 1.0 : 0.0,
+              duration: const Duration(milliseconds: 300),
               child: Align(
-                alignment: Alignment.bottomRight,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.grey[200]!.withOpacity(0.9),
-                    shape: BoxShape.circle,
-                  ),
-                  child: IconButton(
-                    icon: Icon(
-                      isExpanded ? Icons.unfold_less : Icons.unfold_more,
-                      color: const Color(0xFF264358),
-                    ),
-                    onPressed: onExpandPressed,
-                  ),
+                alignment: Alignment.bottomCenter,
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: _BouncingArrow(),
                 ),
               ),
             ),
@@ -499,6 +523,59 @@ class FlashcardSide extends StatelessWidget {
     );
   }
 }
+
+class _BouncingArrow extends StatefulWidget {
+  @override
+  State<_BouncingArrow> createState() => _BouncingArrowState();
+}
+
+class _BouncingArrowState extends State<_BouncingArrow>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _animation;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 700),
+    )..repeat(reverse: true);
+    _animation = Tween<double>(
+      begin: 0,
+      end: 8,
+    ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOut));
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: _animation,
+      builder: (context, child) => Transform.translate(
+        offset: Offset(0, _animation.value),
+        child: Container(
+          decoration: BoxDecoration(
+            color: const Color(0xFF264358).withOpacity(0.75),
+            shape: BoxShape.circle,
+          ),
+          padding: const EdgeInsets.all(6),
+          child: const Icon(
+            Icons.keyboard_arrow_down,
+            color: Colors.white,
+            size: 22,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 // ─── HELPER WIDGETS ──────────────────────────────────────────────────────────
 
 class _StatChip extends StatelessWidget {
@@ -589,7 +666,6 @@ class StatsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final knownPct = result.total > 0 ? result.known / result.total : 0.0;
     return Scaffold(
-      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: Image.asset(
           'assets/images/akademus_logo.jpg',
@@ -598,85 +674,96 @@ class StatsScreen extends StatelessWidget {
         ),
         toolbarHeight: 100,
         backgroundColor: Colors.white,
+        scrolledUnderElevation: 0,
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
-              decoration: BoxDecoration(
-                color: myBlue,
-                borderRadius: BorderRadius.circular(24),
-              ),
-              child: Column(
-                children: [
-                  const Text('🏆', style: TextStyle(fontSize: 42)),
-                  Text(
-                    'Sitzung abgeschlossen!',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: myOrange,
+      body: _AppBackground(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 16,
+                ),
+                decoration: BoxDecoration(
+                  color: myBlue,
+                  borderRadius: BorderRadius.circular(24),
+                ),
+                child: Column(
+                  children: [
+                    const Text('🏆', style: TextStyle(fontSize: 42)),
+                    Text(
+                      'Sitzung abgeschlossen!',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: myOrange,
+                      ),
                     ),
-                  ),
-                  Text(
-                    topic,
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.white.withOpacity(0.8),
+                    Text(
+                      topic,
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.white.withOpacity(0.8),
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            const SizedBox(height: 14),
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: Column(
-                children: [
-                  Text(
-                    '${(knownPct * 100).round()}% gewusst',
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: myBlue,
+              const SizedBox(height: 14),
+              Container(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 14,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Column(
+                  children: [
+                    Text(
+                      '${(knownPct * 100).round()}% gewusst',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: myBlue,
+                      ),
                     ),
+                    const SizedBox(height: 10),
+                    LinearProgressIndicator(
+                      value: knownPct,
+                      minHeight: 12,
+                      backgroundColor: myRed.withOpacity(0.2),
+                      valueColor: AlwaysStoppedAnimation<Color>(myGreen),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () => Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => FancyMathCards(topic: topic),
                   ),
-                  const SizedBox(height: 10),
-                  LinearProgressIndicator(
-                    value: knownPct,
-                    minHeight: 12,
-                    backgroundColor: myRed.withOpacity(0.2),
-                    valueColor: AlwaysStoppedAnimation<Color>(myGreen),
-                  ),
-                ],
+                ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: myBlue,
+                  foregroundColor: myOrange,
+                ),
+                child: const Text('Nochmal üben'),
               ),
-            ),
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () => Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (_) => FancyMathCards(topic: topic)),
+              const SizedBox(height: 10),
+              OutlinedButton(
+                onPressed: () => _goHome(context),
+                style: OutlinedButton.styleFrom(foregroundColor: myBlue),
+                child: const Text('Zur Startseite'),
               ),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: myBlue,
-                foregroundColor: myOrange,
-              ),
-              child: const Text('Nochmal üben'),
-            ),
-            const SizedBox(height: 10),
-            OutlinedButton(
-              onPressed: () => _goHome(context),
-              style: OutlinedButton.styleFrom(foregroundColor: myBlue),
-              child: const Text('Zur Startseite'),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -724,21 +811,23 @@ class MenuButton extends StatelessWidget {
 
 class GridSelectionScreen extends StatelessWidget {
   final String title;
-  final String subtitle;
   final List<Map<String, dynamic>> items;
   final Widget Function(String label) onItemSelected;
+  // 1. Add a parameter for the background image path
+  final String backgroundPath;
+
   const GridSelectionScreen({
     super.key,
     required this.title,
-    required this.subtitle,
     required this.items,
     required this.onItemSelected,
+    this.backgroundPath =
+        'assets/images/background_female.jpg', // Default value
   });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
       appBar: AppBar(
         title: Image.asset(
           'assets/images/akademus_logo.jpg',
@@ -747,73 +836,85 @@ class GridSelectionScreen extends StatelessWidget {
         ),
         toolbarHeight: 100,
         backgroundColor: Colors.white,
+        scrolledUnderElevation: 0,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(24),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              title,
-              style: const TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-                color: Color(0xFF264358),
+      // 2. Replace _AppBackground with a custom Stack using the variable path
+      body: Stack(
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage(backgroundPath), // Uses the individual path
+                fit: BoxFit.cover,
               ),
             ),
-            Text(
-              subtitle,
-              style: TextStyle(fontSize: 14, color: Colors.grey[600]),
-            ),
-            const SizedBox(height: 28),
-            Expanded(
-              child: GridView.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  crossAxisSpacing: 16,
-                  mainAxisSpacing: 16,
-                  childAspectRatio: 1.5,
+          ),
+          Container(color: Colors.white.withOpacity(0.8)),
+          Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Color(0xFF264358),
+                  ),
                 ),
-                itemCount: items.length,
-                itemBuilder: (context, index) {
-                  final item = items[index];
-                  return GestureDetector(
-                    onTap: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => onItemSelected(item['label']),
-                      ),
-                    ),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: const Color(0xFF264358),
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            item['icon'],
-                            color: const Color(0xFFF5AC26),
-                            size: 30,
+                const SizedBox(height: 28),
+                Expanded(
+                  child: GridView.builder(
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          crossAxisSpacing: 16,
+                          mainAxisSpacing: 16,
+                          childAspectRatio: 1.5,
+                        ),
+                    itemCount: items.length,
+                    itemBuilder: (context, index) {
+                      final item = items[index];
+                      return GestureDetector(
+                        onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => onItemSelected(item['label']),
                           ),
-                          const SizedBox(height: 8),
-                          Text(
-                            item['label'],
-                            style: const TextStyle(
-                              color: Color(0xFFF5AC26),
-                              fontWeight: FontWeight.bold,
-                            ),
+                        ),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: const Color(0xFF264358),
+                            borderRadius: BorderRadius.circular(20),
                           ),
-                        ],
-                      ),
-                    ),
-                  );
-                },
-              ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(
+                                item['icon'],
+                                color: const Color(0xFFF5AC26),
+                                size: 30,
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                item['label'],
+                                style: const TextStyle(
+                                  color: Color(0xFFF5AC26),
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+              ],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

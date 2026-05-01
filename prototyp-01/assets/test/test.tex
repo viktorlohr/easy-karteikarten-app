@@ -1,0 +1,127 @@
+\documentclass[fontsize=17pt]{scrartcl}
+
+\usepackage[margin=0.5cm, paperwidth=8cm, paperheight=10in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage[default]{sourcesanspro}
+\usepackage{scrlayer-scrpage}
+\usepackage{eulervm}
+\usepackage[most]{tcolorbox}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{MnSymbol}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage{bm}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{graphicx}
+\pgfplotsset{compat=1.18}
+
+\renewcommand{\familydefault}{\sfdefault} 
+\setlength{\parindent}{0pt}
+
+% Macros
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+
+% Colors
+\definecolor{akademusBlue}{HTML}{264358}
+\colorlet{myBlue}{RoyalBlue}
+\colorlet{myOrange}{Orange}
+
+% Global Styling for Mobile Plots
+\tikzset{
+    every picture/.append style={
+        line cap=round,
+        line join=round
+    }
+}
+
+\pgfplotsset{
+    % Standard Behavior for all Axes
+    every axis/.append style={
+        % FIX: Move trim keys here so they only look for the axis once it exists
+        trim axis left,
+        trim axis right,
+        % -----------------------------------------------------------------
+        % width=\linewidth,
+        axis lines = middle,
+        axis line style={line width=1pt},
+        tick style={line width=0.1pt},
+        xlabel = $x$,
+        ylabel = {$y$},
+        ymin=-10, ymax=10,
+        xmin=-3, xmax=7,
+        xtick distance=1,
+        ytick distance=1,
+        grid=both,
+        grid style={line width=.1pt, draw=gray!20},
+        xticklabels={},
+        yticklabels={},
+        restrict y to domain=-15:15,
+    },
+    % Standard Behavior for all Plot Lines
+    every axis plot/.append style={
+        line width=2.5pt,
+        samples=100
+    }
+}
+
+% Boxes
+\newtcolorbox{marked}{
+  enhanced,
+  frame hidden,
+  colback=gray!5!white,       
+  borderline west={3pt}{0pt}{myOrange}, 
+  boxrule=0pt,         
+  sharp corners,
+  valign=center,       
+}
+
+\newtcolorbox{example}{  
+  enhanced,
+  frame hidden,
+  before upper={\textcolor{myBlue}{\bfseries Beispiel:}},       
+  colback=gray!5!white,       
+  borderline west={3pt}{0pt}{myBlue}, 
+  boxrule=0pt,         
+  sharp corners,
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{marked}
+    Eine Funktion $f(x)$ hat eine \textbf{Polstelle} bei $x_0$, 
+    wenn der \emph{Nenner} dort gegen \emph{Null} konvergiert,
+     der \emph{Zähler} jedoch \emph{nicht}.  
+\end{marked}
+
+Es gilt:
+\[ \lim_{x \to x_0} |f(x)| = \infty \]
+
+\begin{example}
+    \[ f(x) = \frac{3}{x - 2} \]
+    hat eine Polstelle bei \(x=2.\)
+\end{example}
+
+\begin{tikzpicture}
+\begin{axis}
+    % The plot inherits width, color (set locally), and thickness from global settings
+    \addplot [domain=-3:1.8, color=myBlue] {3/(x-2)};
+    \addplot [domain=2.2:7, color=myBlue] {3/(x-2)};
+    
+    % Asymptote guide
+    \draw [dashed, myOrange, line width=1pt] (axis cs:2,-10) -- 
+    node [near start, right, font=\small] {$x=2$}
+    (axis cs:2,10);
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

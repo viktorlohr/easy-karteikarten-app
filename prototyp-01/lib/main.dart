@@ -108,8 +108,6 @@ class PlaceholderScreen extends StatelessWidget {
 
 // ─── TOPIC SELECTION SCREEN ──────────────────────────────────────────────────
 
-// ─── TOPIC SELECTION SCREEN ──────────────────────────────────────────────────
-
 class TopicSelectionScreen extends StatelessWidget {
   const TopicSelectionScreen({super.key});
 
@@ -117,7 +115,6 @@ class TopicSelectionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridSelectionScreen(
       title: 'Thema wählen',
-      // Corrected parameter name from 'imagePath' to 'backgroundPath'
       backgroundPath: 'assets/images/background_male.jpg',
       items: const [
         {'label': 'Analysis', 'icon': Icons.show_chart},
@@ -299,10 +296,10 @@ class _FancyMathCardsState extends State<FancyMathCards>
         ),
         toolbarHeight: 70,
         backgroundColor: Colors.white,
+        surfaceTintColor: Colors.transparent, // Prevents darkening[cite: 1]
+        scrolledUnderElevation: 0, // Prevents darkening[cite: 1]
         foregroundColor: myOrange,
-        scrolledUnderElevation: 0,
       ),
-      // Wrap the content in _AppBackground to add the background image
       body: _AppBackground(
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -314,14 +311,11 @@ class _FancyMathCardsState extends State<FancyMathCards>
                 child: LinearProgressIndicator(
                   value: progress,
                   minHeight: 6,
-                  backgroundColor: Colors.grey.withOpacity(
-                    0.5,
-                  ), // Slightly transparent to show background
+                  backgroundColor: Colors.grey.withOpacity(0.5),
                   valueColor: AlwaysStoppedAnimation<Color>(myOrange),
                 ),
               ),
               const SizedBox(height: 12),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -366,32 +360,102 @@ class _FancyMathCardsState extends State<FancyMathCards>
                 ],
               ),
               const SizedBox(height: 16),
+              AnimatedBuilder(
+                animation: _animation,
+                builder: (context, child) {
+                  final angle = _animation.value * pi;
+                  final showBack = angle > pi / 2;
 
-              GestureDetector(
-                onTap: _flipCard,
-                child: AnimatedBuilder(
-                  animation: _animation,
-                  builder: (context, child) {
-                    final angle = _animation.value * pi;
-                    return Transform(
-                      transform: Matrix4.identity()
-                        ..setEntry(3, 2, 0.001)
-                        ..rotateY(angle),
-                      alignment: Alignment.center,
-                      child: angle < pi / 2
-                          ? FlashcardSide(
-                              imagePath: card['front']!,
-                              isBack: false,
-                            )
-                          : FlashcardSide(
-                              imagePath: card['back']!,
-                              isBack: true,
+                  final double cardHeight =
+                      (MediaQuery.of(context).size.height * 0.70).clamp(
+                        400.0,
+                        600.0,
+                      );
+
+                  final cardDecoration = BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.08),
+                        blurRadius: 12,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
+                  );
+
+                  Matrix4 perspective() =>
+                      Matrix4.identity()..setEntry(3, 2, 0.001);
+
+                  return SizedBox(
+                    height: cardHeight,
+                    width: double.infinity,
+                    child: Stack(
+                      children: [
+                        // ── FRONT FACE ──────────────────────────────────
+                        // Hidden once past 90° by Visibility to avoid it
+                        // bleeding through the back face.
+                        Visibility(
+                          visible: !showBack,
+                          maintainSize: true,
+                          maintainAnimation: true,
+                          maintainState: true,
+                          child: GestureDetector(
+                            onTap: _flipCard,
+                            child: Transform(
+                              transform: perspective()..rotateY(angle),
+                              alignment: Alignment.center,
+                              child: Container(
+                                decoration: cardDecoration,
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Center(
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(16),
+                                      child: Image.asset(
+                                        card['front']!,
+                                        width: double.infinity,
+                                        fit: BoxFit.fitWidth,
+                                        errorBuilder: (_, __, ___) =>
+                                            const Icon(Icons.broken_image),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
                             ),
-                    );
-                  },
-                ),
-              ),
+                          ),
+                        ),
 
+                        // ── BACK FACE ───────────────────────────────────
+                        // Pre-rotated by π so it starts facing away.
+                        // angle - π goes from -π → 0 as the card flips,
+                        // bringing the back face into view correctly.
+                        Visibility(
+                          visible: showBack,
+                          maintainSize: true,
+                          maintainAnimation: true,
+                          maintainState: true,
+                          child: Transform(
+                            transform: perspective()..rotateY(angle - pi),
+                            alignment: Alignment.center,
+                            child: Container(
+                              decoration: cardDecoration,
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(20),
+                                child: FlashcardBack(
+                                  imagePath: card['back']!,
+                                  onTap: _flipCard,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
               const SizedBox(height: 24),
               AnimatedOpacity(
                 opacity: _isFront ? 0.0 : 1.0,
@@ -436,23 +500,18 @@ class _FancyMathCardsState extends State<FancyMathCards>
   }
 }
 
-// ─── FLASHCARD SIDE BLUEPRINT ───────────────────────────────────────────────
+// ─── FLASHCARD BACK (scrollable) ─────────────────────────────────────────────
 
-class FlashcardSide extends StatefulWidget {
+class FlashcardBack extends StatefulWidget {
   final String imagePath;
-  final bool isBack;
-
-  const FlashcardSide({
-    super.key,
-    required this.imagePath,
-    this.isBack = false,
-  });
+  final VoidCallback? onTap;
+  const FlashcardBack({super.key, required this.imagePath, this.onTap});
 
   @override
-  State<FlashcardSide> createState() => _FlashcardSideState();
+  State<FlashcardBack> createState() => _FlashcardBackState();
 }
 
-class _FlashcardSideState extends State<FlashcardSide> {
+class _FlashcardBackState extends State<FlashcardBack> {
   final ScrollController _scrollController = ScrollController();
   bool _showArrow = true;
 
@@ -460,11 +519,8 @@ class _FlashcardSideState extends State<FlashcardSide> {
   void initState() {
     super.initState();
     _scrollController.addListener(() {
-      if (_scrollController.offset > 10 && _showArrow) {
-        setState(() => _showArrow = false);
-      } else if (_scrollController.offset <= 10 && !_showArrow) {
-        setState(() => _showArrow = true);
-      }
+      final atTop = _scrollController.offset <= 10;
+      if (atTop != _showArrow) setState(() => _showArrow = atTop);
     });
   }
 
@@ -475,79 +531,48 @@ class _FlashcardSideState extends State<FlashcardSide> {
   }
 
   @override
-  // Inside class _FlashcardSideState in main.dart
-  @override
   Widget build(BuildContext context) {
-    double dynamicHeight = MediaQuery.of(context).size.height * 0.70;
-    double finalHeight = dynamicHeight.clamp(400.0, 600.0);
-
-    return Container(
-      width: double.infinity,
-      height: finalHeight,
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.08),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(20),
-        child: Stack(
-          children: [
-            LayoutBuilder(
-              builder: (context, constraints) {
-                return SingleChildScrollView(
-                  controller: _scrollController,
-                  physics: const BouncingScrollPhysics(),
-                  padding: const EdgeInsets.all(16.0),
-                  child: ConstrainedBox(
-                    constraints: BoxConstraints(
-                      minHeight: constraints.maxHeight - 32,
-                    ),
-                    child: Center(
-                      // MOVE THE TRANSFORM HERE
-                      child: Transform(
-                        alignment: Alignment.center,
-                        transform: widget.isBack
-                            ? Matrix4.rotationY(pi)
-                            : Matrix4.identity(),
-                        child: Image.asset(
-                          widget.imagePath,
-                          width: double.infinity,
-                          fit: BoxFit.fitWidth,
-                          errorBuilder: (context, error, stackTrace) =>
-                              const Center(
-                                child: Icon(
-                                  Icons.broken_image,
-                                  color: Colors.grey,
-                                ),
-                              ),
-                        ),
-                      ),
+    return GestureDetector(
+      onTap: widget.onTap,
+      child: Stack(
+        children: [
+          Scrollbar(
+            controller: _scrollController,
+            thumbVisibility: true,
+            child: LayoutBuilder(
+              builder: (context, constraints) => SingleChildScrollView(
+                controller: _scrollController,
+                physics: const BouncingScrollPhysics(),
+                padding: const EdgeInsets.all(16),
+                child: ConstrainedBox(
+                  constraints: BoxConstraints(
+                    minHeight: constraints.maxHeight - 32,
+                  ),
+                  child: Center(
+                    child: Image.asset(
+                      widget.imagePath,
+                      width: double.infinity,
+                      fit: BoxFit.fitWidth,
+                      errorBuilder: (_, __, ___) =>
+                          const Icon(Icons.broken_image),
                     ),
                   ),
-                );
-              },
-            ),
-            // Scroll hint arrow remains unflipped as it's outside the scroll view
-            AnimatedOpacity(
-              opacity: _showArrow ? 1.0 : 0.0,
-              duration: const Duration(milliseconds: 300),
-              child: Align(
-                alignment: Alignment.bottomCenter,
-                child: Padding(
-                  padding: const EdgeInsets.only(bottom: 10),
-                  child: _BouncingArrow(),
                 ),
               ),
             ),
-          ],
-        ),
+          ),
+          AnimatedOpacity(
+            opacity: _showArrow ? 1.0 : 0.0,
+            duration: const Duration(milliseconds: 300),
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: _BouncingArrow(),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -612,7 +637,6 @@ class _CompactStat extends StatelessWidget {
   final String label;
   final Color color;
 
-  // Ensure the constructor correctly initializes these fields
   const _CompactStat({
     required this.icon,
     required this.label,
@@ -624,14 +648,10 @@ class _CompactStat extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Icon(
-          icon,
-          color: color,
-          size: 16,
-        ), // 'color' is now defined from the class property
+        Icon(icon, color: color, size: 16),
         const SizedBox(width: 2),
         Text(
-          label, // 'label' is now defined from the class property
+          label,
           style: TextStyle(
             color: color,
             fontWeight: FontWeight.bold,
@@ -841,7 +861,6 @@ class GridSelectionScreen extends StatelessWidget {
   final String title;
   final List<Map<String, dynamic>> items;
   final Widget Function(String label) onItemSelected;
-  // 1. Add a parameter for the background image path
   final String backgroundPath;
 
   const GridSelectionScreen({
@@ -849,8 +868,7 @@ class GridSelectionScreen extends StatelessWidget {
     required this.title,
     required this.items,
     required this.onItemSelected,
-    this.backgroundPath =
-        'assets/images/background_female.jpg', // Default value
+    this.backgroundPath = 'assets/images/background_female.jpg',
   });
 
   @override
@@ -866,13 +884,12 @@ class GridSelectionScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         scrolledUnderElevation: 0,
       ),
-      // 2. Replace _AppBackground with a custom Stack using the variable path
       body: Stack(
         children: [
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage(backgroundPath), // Uses the individual path
+                image: AssetImage(backgroundPath),
                 fit: BoxFit.cover,
               ),
             ),

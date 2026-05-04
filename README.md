@@ -13,6 +13,8 @@
 - [ ] Dateien konsistent benennen, also "analysis_thema_front.tex". Dann Skript schreiben, das alle .tex Dateien zu .webp kompiliert
     und anschließend in einer .json in die richtige Stelle schiebt.
 - [ ] Doppelclick auf Bildschirm um Lösung zu überspringen
+- [ ] Impressum nicht hinter Navigationsleiste
+- [ ] alle Bilder zu .webp
 
 ## mid term
 - [ ] Listenverzeichnis aller Karten anlegen mit Kartennummer

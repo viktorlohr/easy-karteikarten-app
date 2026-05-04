@@ -1,0 +1,42 @@
+IMPRESSUM
+
+Anbieter:
+AKADEMUS
+Inhaber: Nick Klupak
+Prüfeninger Str. 7
+93049 Regensburg
+
+Kontakt:
+Telefon: 0941 / 7977144
+E-Mail: info@akademus.de
+Website: www.akademus.de
+
+Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:
+Nick Klupak
+Prüfeninger Str. 7
+93049 Regensburg
+
+-----------------------------------------
+
+DATENSCHUTZERKLÄRUNG
+
+1. Verantwortlicher (Anbieter)
+Name und Anschrift des Entwicklers: Nick Klupak, Prüfeninger Str. 7, 93049 Regensburg.
+Kontakt: info@akademus.de
+
+2. Grundsatz: Keine Datenerhebung/Offlinemodus
+Diese App läuft rein lokal auf deinem Endgerät. 
+- Es werden keine personenbezogenen Daten erhoben, gespeichert oder an den Entwickler übermittelt.
+- Es sind keine Analysetools (wie Google Analytics, Firebase) oder Werbe-SDKs integriert.
+
+3. Zugriffsberechtigungen
+Die App benötigt keine besonderen Berechtigungen für den Zugriff auf Kamera, Kontakte oder Standort. Daten werden ausschließlich im lokalen App-Speicher abgelegt.
+
+4. Datenverarbeitung auf dem Gerät
+Sämtliche Daten (z. B. Lern-Statistiken) werden lokal gespeichert. Diese verlassen das Gerät nicht und können vom Entwickler nicht eingesehen werden.
+
+5. Rechte der Nutzer
+Dir stehen die Rechte gemäß DSGVO zu (Auskunft, Löschung, Berichtigung). Da keine Daten übermittelt werden, erfolgt eine vollständige Löschung aller lokalen Daten einfach durch das Deinstallieren der App.
+
+6. Aktualität
+Stand: Mai 2026

@@ -10,7 +10,7 @@
 \usepackage{csquotes}
 \usepackage[default]{sourcesanspro}
 \usepackage{scrlayer-scrpage}
-\usepackage{eulervm}
+\usepackage{eulervm} % coole Mathe-Schriftart
 \usepackage[most]{tcolorbox}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tabularx}
@@ -26,19 +26,30 @@
 \usepackage{graphicx}
 \pgfplotsset{compat=1.18}
 
+% sans-serif Schriftart
 \renewcommand{\familydefault}{\sfdefault} 
 \setlength{\parindent}{0pt}
 
-% Macros
+% Mathe-Macros
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\R}{\mathbb{R}}
 
-% Colors
+% Farben
 \definecolor{akademusBlue}{HTML}{264358}
 \colorlet{myBlue}{RoyalBlue}
 \colorlet{myOrange}{Orange}
 
-% Global Styling for Mobile Plots
+% This redefines the 'default' color at the low level
+\makeatletter
+\newcommand{\globalcolor}[1]{%
+  \color{#1}\def\default@color{\current@color}%
+}
+\makeatother
+
+% Apply it globally
+\AtBeginDocument{\globalcolor{akademusBlue}}
+
+% Tikz-Einstellungen
 \tikzset{
     every picture/.append style={
         line width=1.5pt,
@@ -77,14 +88,20 @@
     }
 }
 
-% Boxes
-\newtcolorbox{marked}{
+
+\tcbset{
+  colupper=akademusBlue, % Standardfarbe in tcolorbox
   enhanced,
   frame hidden,
-  colback=gray!5!white,       
+  boxrule=0pt, 
+  colback=gray!5!white,  
+  rounded corners,
+}
+
+
+% Boxes
+\newtcolorbox{marked}{
   borderline west={3pt}{0pt}{myOrange}, 
-  boxrule=0pt,         
-  sharp corners,
   valign=center,       
 }
 

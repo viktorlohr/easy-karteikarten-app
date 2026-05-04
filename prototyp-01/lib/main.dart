@@ -76,6 +76,40 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: GestureDetector(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const PrivacyInfoScreen()),
+                );
+              },
+              child: Container(
+                margin: const EdgeInsets.only(bottom: 12),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 6,
+                ),
+                decoration: const BoxDecoration(), // transparent
+                child: const Text(
+                  'Impressum | Datenschutz',
+                  style: TextStyle(
+                    fontSize: 11,
+                    color: Colors.white,
+                    shadows: [
+                      Shadow(
+                        blurRadius: 4,
+                        color: Colors.black,
+                        offset: Offset(0, 1),
+                      ),
+                    ],
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );
@@ -301,9 +335,10 @@ class _FancyMathCardsState extends State<FancyMathCards>
         foregroundColor: myOrange,
       ),
       body: _AppBackground(
-        child: SingleChildScrollView(
+        child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const SizedBox(height: 8),
               ClipRRect(
@@ -360,41 +395,33 @@ class _FancyMathCardsState extends State<FancyMathCards>
                 ],
               ),
               const SizedBox(height: 16),
-              AnimatedBuilder(
-                animation: _animation,
-                builder: (context, child) {
-                  final angle = _animation.value * pi;
-                  final showBack = angle > pi / 2;
+              // Card expands to fill all remaining space between the stats
+              // row above and the rating buttons below — no fixed height needed.
+              Expanded(
+                child: AnimatedBuilder(
+                  animation: _animation,
+                  builder: (context, child) {
+                    final angle = _animation.value * pi;
+                    final showBack = angle > pi / 2;
 
-                  final double cardHeight =
-                      (MediaQuery.of(context).size.height * 0.70).clamp(
-                        400.0,
-                        600.0,
-                      );
+                    final cardDecoration = BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.08),
+                          blurRadius: 12,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    );
 
-                  final cardDecoration = BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(20),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.08),
-                        blurRadius: 12,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  );
+                    Matrix4 perspective() =>
+                        Matrix4.identity()..setEntry(3, 2, 0.001);
 
-                  Matrix4 perspective() =>
-                      Matrix4.identity()..setEntry(3, 2, 0.001);
-
-                  return SizedBox(
-                    height: cardHeight,
-                    width: double.infinity,
-                    child: Stack(
+                    return Stack(
                       children: [
-                        // ── FRONT FACE ──────────────────────────────────
-                        // Hidden once past 90° by Visibility to avoid it
-                        // bleeding through the back face.
+                        // ── FRONT FACE ────────────────────────────────────
                         Visibility(
                           visible: !showBack,
                           maintainSize: true,
@@ -427,10 +454,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
                           ),
                         ),
 
-                        // ── BACK FACE ───────────────────────────────────
-                        // Pre-rotated by π so it starts facing away.
-                        // angle - π goes from -π → 0 as the card flips,
-                        // bringing the back face into view correctly.
+                        // ── BACK FACE ─────────────────────────────────────
                         Visibility(
                           visible: showBack,
                           maintainSize: true,
@@ -452,11 +476,11 @@ class _FancyMathCardsState extends State<FancyMathCards>
                           ),
                         ),
                       ],
-                    ),
-                  );
-                },
+                    );
+                  },
+                ),
               ),
-              const SizedBox(height: 24),
+              const SizedBox(height: 16),
               AnimatedOpacity(
                 opacity: _isFront ? 0.0 : 1.0,
                 duration: const Duration(milliseconds: 300),
@@ -961,6 +985,112 @@ class GridSelectionScreen extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class PrivacyInfoScreen extends StatelessWidget {
+  const PrivacyInfoScreen({super.key});
+
+  final Color myBlue = const Color(0xFF264358); // Aus deinem main.dart
+
+  Future<String> _loadText(BuildContext context) async {
+    // Stellt sicher, dass der Pfad exakt mit deiner pubspec.yaml übereinstimmt
+    return await DefaultAssetBundle.of(
+      context,
+    ).loadString('assets/datenschutz.txt');
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Impressum | Datenschutz'),
+        backgroundColor: Colors.white,
+        foregroundColor: myBlue,
+        elevation: 0,
+      ),
+      body: _AppBackground(
+        // Nutzt dein vorhandenes Hintergrund-Widget[cite: 1]
+        child: FutureBuilder<String>(
+          future: _loadText(context),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return const Center(child: CircularProgressIndicator());
+            }
+
+            return SingleChildScrollView(
+              padding: const EdgeInsets.all(24),
+              child: Container(
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white.withOpacity(0.9),
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.05),
+                      blurRadius: 10,
+                    ),
+                  ],
+                ),
+                child: Text(
+                  snapshot.data ?? 'Inhalt konnte nicht geladen werden.',
+                  style: const TextStyle(
+                    fontSize: 14,
+                    height:
+                        1.5, // Erhöht die Zeilenabstände für bessere Lesbarkeit
+                    color: Colors.black87,
+                  ),
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class GlobalFooterWrapper extends StatelessWidget {
+  final Widget child;
+  const GlobalFooterWrapper({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        child,
+        Align(
+          alignment: Alignment.bottomCenter,
+          child: GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const PrivacyInfoScreen()),
+              );
+            },
+            child: Container(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              child: const Text(
+                'Impressum | Datenschutz',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Colors.white,
+                  shadows: [
+                    Shadow(
+                      blurRadius: 4,
+                      color: Colors.black,
+                      offset: Offset(0, 1),
+                    ),
+                  ],
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

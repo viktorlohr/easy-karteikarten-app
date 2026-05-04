@@ -10,9 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_math_fork: ^0.7.4
   cupertino_icons: ^1.0.8
-  syncfusion_flutter_pdfviewer: ^21.1.35
+  syncfusion_flutter_pdfviewer: ^33.2.4
 
 dev_dependencies:
   flutter_test:

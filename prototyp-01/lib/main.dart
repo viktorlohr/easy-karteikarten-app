@@ -3,6 +3,55 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(const MaterialApp(home: HomeScreen()));
 
+// ─── GLOBAL FOOTER WRAPPER ──────────────────────────────────────────────────
+class GlobalFooterWrapper extends StatelessWidget {
+  final Widget child;
+  const GlobalFooterWrapper({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      children: [
+        Padding(padding: const EdgeInsets.only(bottom: 40), child: child),
+        Align(
+          alignment: Alignment.bottomCenter,
+          child: GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const PrivacyInfoScreen()),
+              );
+            },
+            child: Container(
+              margin: const EdgeInsets.only(bottom: 12),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: Colors.black.withValues(alpha: 0.5),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: const Text(
+                'Impressum | Datenschutz',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Colors.white,
+                  shadows: [
+                    Shadow(
+                      blurRadius: 4,
+                      color: Colors.black,
+                      offset: Offset(0, 1),
+                    ),
+                  ],
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
 // ─── HOME SCREEN ─────────────────────────────────────────────────────────────
 
 class HomeScreen extends StatelessWidget {
@@ -25,92 +74,60 @@ class HomeScreen extends StatelessWidget {
         scrolledUnderElevation: 0,
         foregroundColor: myOrange,
       ),
-      body: Stack(
-        children: [
-          Container(
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage('assets/images/background_female.jpg'),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-          Container(color: Colors.white.withOpacity(0.8)),
-          Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  'Willkommen!',
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                    color: myBlue,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'Was möchtest du heute tun?',
-                  style: TextStyle(fontSize: 16, color: Colors.grey[800]),
-                ),
-                const SizedBox(height: 40),
-                const MenuButton(
-                  label: 'Mathe Karteikarten',
-                  icon: Icons.style_outlined,
-                  destination: TopicSelectionScreen(),
-                ),
-                const SizedBox(height: 16),
-                const MenuButton(
-                  label: 'KI Mathe-Tutor',
-                  icon: Icons.auto_awesome_outlined,
-                  destination: PlaceholderScreen(title: 'KI Tutor Chat'),
-                ),
-                const SizedBox(height: 16),
-                const MenuButton(
-                  label: 'Lern-Statistiken',
-                  icon: Icons.insert_chart_outlined,
-                  destination: PlaceholderScreen(
-                    title: 'Langzeit-Statistiken kommen bald',
-                  ),
-                ),
-              ],
-            ),
-          ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: GestureDetector(
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (_) => const PrivacyInfoScreen()),
-                );
-              },
-              child: Container(
-                margin: const EdgeInsets.only(bottom: 12),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 6,
-                ),
-                decoration: const BoxDecoration(), // transparent
-                child: const Text(
-                  'Impressum | Datenschutz',
-                  style: TextStyle(
-                    fontSize: 11,
-                    color: Colors.white,
-                    shadows: [
-                      Shadow(
-                        blurRadius: 4,
-                        color: Colors.black,
-                        offset: Offset(0, 1),
-                      ),
-                    ],
-                  ),
-                  textAlign: TextAlign.center,
+      body: GlobalFooterWrapper(
+        child: Stack(
+          children: [
+            Container(
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage('assets/images/background_female.jpg'),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
-          ),
-        ],
+            Container(color: Colors.white.withValues(alpha: 0.8)),
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Willkommen!',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: myBlue,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    'Was möchtest du heute tun?',
+                    style: TextStyle(fontSize: 16, color: Colors.grey[800]),
+                  ),
+                  const SizedBox(height: 40),
+                  const MenuButton(
+                    label: 'Mathe Karteikarten',
+                    icon: Icons.style_outlined,
+                    destination: TopicSelectionScreen(),
+                  ),
+                  const SizedBox(height: 16),
+                  const MenuButton(
+                    label: 'KI Mathe-Tutor',
+                    icon: Icons.auto_awesome_outlined,
+                    destination: PlaceholderScreen(title: 'KI Tutor Chat'),
+                  ),
+                  const SizedBox(height: 16),
+                  const MenuButton(
+                    label: 'Lern-Statistiken',
+                    icon: Icons.insert_chart_outlined,
+                    destination: PlaceholderScreen(
+                      title: 'Langzeit-Statistiken kommen bald',
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -203,19 +220,21 @@ class _AppBackground extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          decoration: const BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage('assets/images/gelb_verlauf.jpg'),
-              fit: BoxFit.cover,
+    return GlobalFooterWrapper(
+      child: Stack(
+        children: [
+          Container(
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage('assets/images/gelb_verlauf.jpg'),
+                fit: BoxFit.cover,
+              ),
             ),
           ),
-        ),
-        Container(color: Colors.white.withOpacity(0.8)),
-        child,
-      ],
+          Container(color: Colors.white.withValues(alpha: 0.8)),
+          child,
+        ],
+      ),
     );
   }
 }
@@ -330,8 +349,8 @@ class _FancyMathCardsState extends State<FancyMathCards>
         ),
         toolbarHeight: 70,
         backgroundColor: Colors.white,
-        surfaceTintColor: Colors.transparent, // Prevents darkening[cite: 1]
-        scrolledUnderElevation: 0, // Prevents darkening[cite: 1]
+        surfaceTintColor: Colors.transparent,
+        scrolledUnderElevation: 0,
         foregroundColor: myOrange,
       ),
       body: _AppBackground(
@@ -346,7 +365,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
                 child: LinearProgressIndicator(
                   value: progress,
                   minHeight: 6,
-                  backgroundColor: Colors.grey.withOpacity(0.5),
+                  backgroundColor: Colors.grey.withValues(alpha: 0.5),
                   valueColor: AlwaysStoppedAnimation<Color>(myOrange),
                 ),
               ),
@@ -395,8 +414,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
                 ],
               ),
               const SizedBox(height: 16),
-              // Card expands to fill all remaining space between the stats
-              // row above and the rating buttons below — no fixed height needed.
               Expanded(
                 child: AnimatedBuilder(
                   animation: _animation,
@@ -409,7 +426,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
                       borderRadius: BorderRadius.circular(20),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withOpacity(0.08),
+                          color: Colors.black.withValues(alpha: 0.08),
                           blurRadius: 12,
                           offset: const Offset(0, 4),
                         ),
@@ -421,7 +438,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
 
                     return Stack(
                       children: [
-                        // ── FRONT FACE ────────────────────────────────────
                         Visibility(
                           visible: !showBack,
                           maintainSize: true,
@@ -453,8 +469,6 @@ class _FancyMathCardsState extends State<FancyMathCards>
                             ),
                           ),
                         ),
-
-                        // ── BACK FACE ─────────────────────────────────────
                         Visibility(
                           visible: showBack,
                           maintainSize: true,
@@ -509,7 +523,7 @@ class _FancyMathCardsState extends State<FancyMathCards>
                   ),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
             ],
           ),
         ),
@@ -639,7 +653,7 @@ class _BouncingArrowState extends State<_BouncingArrow>
         offset: Offset(0, _animation.value),
         child: Container(
           decoration: BoxDecoration(
-            color: const Color(0xFF264358).withOpacity(0.75),
+            color: const Color(0xFF264358).withValues(alpha: 0.75),
             shape: BoxShape.circle,
           ),
           padding: const EdgeInsets.all(6),
@@ -778,7 +792,7 @@ class StatsScreen extends StatelessWidget {
                       topic,
                       style: TextStyle(
                         fontSize: 14,
-                        color: Colors.white.withOpacity(0.8),
+                        color: Colors.white.withValues(alpha: 0.8),
                       ),
                     ),
                   ],
@@ -808,7 +822,7 @@ class StatsScreen extends StatelessWidget {
                     LinearProgressIndicator(
                       value: knownPct,
                       minHeight: 12,
-                      backgroundColor: myRed.withOpacity(0.2),
+                      backgroundColor: myRed.withValues(alpha: 0.2),
                       valueColor: AlwaysStoppedAnimation<Color>(myGreen),
                     ),
                   ],
@@ -908,82 +922,84 @@ class GridSelectionScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         scrolledUnderElevation: 0,
       ),
-      body: Stack(
-        children: [
-          Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(backgroundPath),
-                fit: BoxFit.cover,
+      body: GlobalFooterWrapper(
+        child: Stack(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage(backgroundPath),
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
-          ),
-          Container(color: Colors.white.withOpacity(0.8)),
-          Padding(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF264358),
+            Container(color: Colors.white.withValues(alpha: 0.8)),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF264358),
+                    ),
                   ),
-                ),
-                const SizedBox(height: 28),
-                Expanded(
-                  child: GridView.builder(
-                    gridDelegate:
-                        const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          crossAxisSpacing: 16,
-                          mainAxisSpacing: 16,
-                          childAspectRatio: 1.5,
-                        ),
-                    itemCount: items.length,
-                    itemBuilder: (context, index) {
-                      final item = items[index];
-                      return GestureDetector(
-                        onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (_) => onItemSelected(item['label']),
+                  const SizedBox(height: 28),
+                  Expanded(
+                    child: GridView.builder(
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            crossAxisSpacing: 16,
+                            mainAxisSpacing: 16,
+                            childAspectRatio: 1.5,
                           ),
-                        ),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: const Color(0xFF264358),
-                            borderRadius: BorderRadius.circular(20),
+                      itemCount: items.length,
+                      itemBuilder: (context, index) {
+                        final item = items[index];
+                        return GestureDetector(
+                          onTap: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_) => onItemSelected(item['label']),
+                            ),
                           ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Icon(
-                                item['icon'],
-                                color: const Color(0xFFF5AC26),
-                                size: 30,
-                              ),
-                              const SizedBox(height: 8),
-                              Text(
-                                item['label'],
-                                style: const TextStyle(
-                                  color: Color(0xFFF5AC26),
-                                  fontWeight: FontWeight.bold,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: const Color(0xFF264358),
+                              borderRadius: BorderRadius.circular(20),
+                            ),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  item['icon'],
+                                  color: const Color(0xFFF5AC26),
+                                  size: 30,
                                 ),
-                              ),
-                            ],
+                                const SizedBox(height: 8),
+                                Text(
+                                  item['label'],
+                                  style: const TextStyle(
+                                    color: Color(0xFFF5AC26),
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
-                        ),
-                      );
-                    },
+                        );
+                      },
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -992,10 +1008,9 @@ class GridSelectionScreen extends StatelessWidget {
 class PrivacyInfoScreen extends StatelessWidget {
   const PrivacyInfoScreen({super.key});
 
-  final Color myBlue = const Color(0xFF264358); // Aus deinem main.dart
+  final Color myBlue = const Color(0xFF264358);
 
   Future<String> _loadText(BuildContext context) async {
-    // Stellt sicher, dass der Pfad exakt mit deiner pubspec.yaml übereinstimmt
     return await DefaultAssetBundle.of(
       context,
     ).loadString('assets/datenschutz.txt');
@@ -1011,7 +1026,6 @@ class PrivacyInfoScreen extends StatelessWidget {
         elevation: 0,
       ),
       body: _AppBackground(
-        // Nutzt dein vorhandenes Hintergrund-Widget[cite: 1]
         child: FutureBuilder<String>(
           future: _loadText(context),
           builder: (context, snapshot) {
@@ -1024,11 +1038,11 @@ class PrivacyInfoScreen extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.9),
+                  color: Colors.white.withValues(alpha: 0.9),
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.black.withOpacity(0.05),
+                      color: Colors.black.withValues(alpha: 0.05),
                       blurRadius: 10,
                     ),
                   ],
@@ -1037,8 +1051,7 @@ class PrivacyInfoScreen extends StatelessWidget {
                   snapshot.data ?? 'Inhalt konnte nicht geladen werden.',
                   style: const TextStyle(
                     fontSize: 14,
-                    height:
-                        1.5, // Erhöht die Zeilenabstände für bessere Lesbarkeit
+                    height: 1.5,
                     color: Colors.black87,
                   ),
                 ),
@@ -1047,50 +1060,6 @@ class PrivacyInfoScreen extends StatelessWidget {
           },
         ),
       ),
-    );
-  }
-}
-
-class GlobalFooterWrapper extends StatelessWidget {
-  final Widget child;
-  const GlobalFooterWrapper({super.key, required this.child});
-
-  @override
-  Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        child,
-        Align(
-          alignment: Alignment.bottomCenter,
-          child: GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => const PrivacyInfoScreen()),
-              );
-            },
-            child: Container(
-              margin: const EdgeInsets.only(bottom: 12),
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-              child: const Text(
-                'Impressum | Datenschutz',
-                style: TextStyle(
-                  fontSize: 11,
-                  color: Colors.white,
-                  shadows: [
-                    Shadow(
-                      blurRadius: 4,
-                      color: Colors.black,
-                      offset: Offset(0, 1),
-                    ),
-                  ],
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-          ),
-        ),
-      ],
     );
   }
 }

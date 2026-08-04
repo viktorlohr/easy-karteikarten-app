@@ -1,40 +1,31 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.26)  27 APR 2026 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.26)  24 JUL 2026 19:21
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Karteikarten_Akademus.tex
-(./Karteikarten_Akademus.tex
+**c:/Users/lehre/OneDrive/Documents/Akademus/Karteikarten/Karteikarten_Akademus.tex
+(c:/Users/lehre/OneDrive/Documents/Akademus/Karteikarten/Karteikarten_Akademus.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2025/09/09 v3.48 KOMA-Script document class (article)
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
-
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
-)))
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+))) (c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 370.
-))
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)) (c:/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
 \scr@dte@tocline@numbox=\box53
@@ -42,14 +33,10 @@ Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 141.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2486.
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (12pt
-)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/typearea.sty
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2486.
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (12pt)
+) (c:/texlive/2025/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count275
@@ -68,8 +55,7 @@ Package typearea Info: With paper sizes other than (almost) `A4' predefined
 (typearea)             line width (unless using `version=3.24` or prior).
 
 
-Package typearea Info: DIV calculation for classic typearea. on input line 1807
-.
+Package typearea Info: DIV calculation for classic typearea. on input line 1807.
 
 Package typearea Info: Maybe no optimal type area settings!
 (typearea)             The detected line width is about 44%
@@ -144,16 +130,13 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count283
 Class scrartcl Info: Redefining `\numberline' on input line 6592.
 \bibindent=\dimen148
-) (./praeambel_karteikarten.tex
-(c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+) (./praeambel_karteikarten.tex (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-)
-(c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(c:/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -187,48 +170,32 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+) (c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
 \U@D=\dimen149
 \l@unhyphenated=\language90
-
-(c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+ (c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
-
-(c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex)
+ (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex)
 Package babel Info: Importing font and identification data for ngerman
 (babel)             from babel-de.ini. Reported on input line 4298.
-(c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthogra
-phy)
-
-(c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthogr
-aphy)
+ (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
+ (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 122.
-)))
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+))) (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
-
-(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count286
 )
@@ -244,63 +211,262 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count288
-
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+ (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
-
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip65
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+ (c:/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-(c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+) (c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen155
+\pgf@y=\dimen156
+\pgf@xa=\dimen157
+\pgf@ya=\dimen158
+\pgf@xb=\dimen159
+\pgf@yb=\dimen160
+\pgf@xc=\dimen161
+\pgf@yc=\dimen162
+\pgf@xd=\dimen163
+\pgf@yd=\dimen164
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count289
+\c@pgf@countb=\count290
+\c@pgf@countc=\count291
+\c@pgf@countd=\count292
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count293
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count294
+\pgfsyssoftpath@bigbuffer@items=\count295
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen165
+\pgfmath@count=\count296
+\pgfmath@box=\box57
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count297
+)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen166
+\pgf@picmaxx=\dimen167
+\pgf@picminy=\dimen168
+\pgf@picmaxy=\dimen169
+\pgf@pathminx=\dimen170
+\pgf@pathmaxx=\dimen171
+\pgf@pathminy=\dimen172
+\pgf@pathmaxy=\dimen173
+\pgf@xx=\dimen174
+\pgf@xy=\dimen175
+\pgf@yx=\dimen176
+\pgf@yy=\dimen177
+\pgf@zx=\dimen178
+\pgf@zy=\dimen179
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen180
+\pgf@path@lasty=\dimen181
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen182
+\pgf@shorten@start@additional=\dimen183
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count298
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen184
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen185
+\pgf@pt@y=\dimen186
+\pgf@pt@temp=\dimen187
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen188
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen189
+\pgf@sys@shading@range@num=\count299
+\pgf@shadingcount=\count300
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box61
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box62
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count301
+\pgfplotmarksize=\dimen194
+)
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikz@lastmovetox=\dimen199
+\tikz@lastmovetoy=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count302
+\tikznumberofchildren=\count303
+\tikznumberofcurrentchild=\count304
+\tikz@fig@count=\count305
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count306
+\pgfmatrixcurrentcolumn=\count307
+\pgf@matrix@numberofcolumns=\count308
+)
+\tikz@expandcount=\count309
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count289
-\Gm@cntv=\count290
-\c@Gm@tempcnt=\count291
-\Gm@bindingoffset=\dimen151
-\Gm@wd@mp=\dimen152
-\Gm@odd@mp=\dimen153
-\Gm@even@mp=\dimen154
-\Gm@layoutwidth=\dimen155
-\Gm@layoutheight=\dimen156
-\Gm@layouthoffset=\dimen157
-\Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks22
+\Gm@cnth=\count310
+\Gm@cntv=\count311
+\c@Gm@tempcnt=\count312
+\Gm@bindingoffset=\dimen259
+\Gm@wd@mp=\dimen260
+\Gm@odd@mp=\dimen261
+\Gm@even@mp=\dimen262
+\Gm@layoutwidth=\dimen263
+\Gm@layoutheight=\dimen264
+\Gm@layouthoffset=\dimen265
+\Gm@layoutvoffset=\dimen266
+\Gm@dimlist=\toks34
 )
-\c@kartennummer=\count292
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2025/09/09 v3.48 KOMA-Script package (end user interf
-ace for scrlayer)
-
-(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer.sty
-Package: scrlayer 2025/09/09 v3.48 KOMA-Script package (defining layers and pag
-e styles)
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
-9.
+\c@kartennummer=\count313
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2025/09/09 v3.48 KOMA-Script package (end user interface for scrlayer)
+ (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2025/09/09 v3.48 KOMA-Script package (defining layers and page styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2179.
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
 (scrlayer-scrpage)             alias to `pageheadfoot' on input line 1106.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/cmbright/cmbright.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/cmbright/cmbright.sty
 Package: cmbright 2005/04/13 v8.1 (WaS)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -365,449 +531,119 @@ LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 64.
 LaTeX Font Info:    Redeclaring math symbol \varphi on input line 65.
 LaTeX Info: Redefining \LaTeX on input line 129.
 LaTeX Info: Redefining \LaTeXe on input line 139.
-LaTeX Font Info:    Trying to load font information for T1+cmbr on input line 1
-44.
-
-(c:/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmbr.fd
+LaTeX Font Info:    Trying to load font information for T1+cmbr on input line 144.
+ (c:/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmbr.fd
 File: t1cmbr.fd 2005/04/13 v8.1 (WaS)
-))
-(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-)
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
-)
-\Gin@req@height=\dimen159
-\Gin@req@width=\dimen160
-)
-(c:/texlive/2025/texmf-dist/tex/latex/diagbox/diagbox.sty
+)) (c:/texlive/2025/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
-
-(c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.sty
 Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
-
-(c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.cfg
+ (c:/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
-
-(c:/texlive/2025/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+ (c:/texlive/2025/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks23
-\@arclen=\dimen161
-\@arcrad=\dimen162
-\pIIe@tempdima=\dimen163
-\pIIe@tempdimb=\dimen164
-\pIIe@tempdimc=\dimen165
-\pIIe@tempdimd=\dimen166
-\pIIe@tempdime=\dimen167
-\pIIe@tempdimf=\dimen168
-)
-(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+\pIIe@GRAPH=\toks35
+\@arclen=\dimen267
+\@arcrad=\dimen268
+\pIIe@tempdima=\dimen269
+\pIIe@tempdimb=\dimen270
+\pIIe@tempdimc=\dimen271
+\pIIe@tempdimd=\dimen272
+\pIIe@tempdime=\dimen273
+\pIIe@tempdimf=\dimen274
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count293
-\calc@Bcount=\count294
-\calc@Adimen=\dimen169
-\calc@Bdimen=\dimen170
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
 \calc@Askip=\skip66
 \calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count295
+\calc@Ccount=\count316
 \calc@Cskip=\skip68
-)
-(c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen171
-\ar@mcellbox=\box56
-\extrarowheight=\dimen172
-\NC@list=\toks24
+\col@sep=\dimen277
+\ar@mcellbox=\box67
+\extrarowheight=\dimen278
+\NC@list=\toks36
 \extratabsurround=\skip69
 \backup@length=\skip70
-\ar@cellbox=\box57
+\ar@cellbox=\box68
 )
-\diagbox@boxa=\box58
-\diagbox@boxb=\box59
-\diagbox@boxm=\box60
-\diagbox@wd=\dimen173
-\diagbox@ht=\dimen174
-\diagbox@insepl=\dimen175
-\diagbox@insepr=\dimen176
-\diagbox@outsepl=\dimen177
-\diagbox@outsepr=\dimen178
-)
-(c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+\diagbox@boxa=\box69
+\diagbox@boxb=\box70
+\diagbox@boxm=\box71
+\diagbox@wd=\dimen279
+\diagbox@ht=\dimen280
+\diagbox@insepl=\dimen281
+\diagbox@insepr=\dimen282
+\diagbox@outsepl=\dimen283
+\diagbox@outsepr=\dimen284
+) (c:/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen179
-\TX@old@table=\dimen180
-\TX@old@col=\dimen181
-\TX@target=\dimen182
-\TX@delta=\dimen183
-\TX@cols=\count296
-\TX@ftn=\toks25
-)
-(c:/texlive/2025/texmf-dist/tex/latex/fancybox/fancybox.sty
+\TX@col@width=\dimen285
+\TX@old@table=\dimen286
+\TX@old@col=\dimen287
+\TX@target=\dimen288
+\TX@delta=\dimen289
+\TX@cols=\count317
+\TX@ftn=\toks37
+) (c:/texlive/2025/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
-\@fancybox=\box61
-\shadowsize=\dimen184
-\@Sbox=\box62
-\do@VerbBox=\toks26
-\the@fancyput=\toks27
-\this@fancyput=\toks28
-\EndVerbatimTokens=\toks29
-\Verbatim@Outfile=\write3
-\Verbatim@Infile=\read3
+\@fancybox=\box72
+\shadowsize=\dimen290
+\@Sbox=\box73
+\do@VerbBox=\toks38
+\the@fancyput=\toks39
+\this@fancyput=\toks40
+\EndVerbatimTokens=\toks41
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read4
 ) (c:/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip71
-\enit@outerparindent=\dimen185
-\enit@toks=\toks30
-\enit@inbox=\box63
-\enit@count@id=\count297
-\enitdp@description=\count298
-)
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen186
-\pgfutil@tempdimb=\dimen187
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box64
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-))
-Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
-de.tex
-\pgfkeys@tmptoks=\toks34
-))
-\pgf@x=\dimen188
-\pgf@y=\dimen189
-\pgf@xa=\dimen190
-\pgf@ya=\dimen191
-\pgf@xb=\dimen192
-\pgf@yb=\dimen193
-\pgf@xc=\dimen194
-\pgf@yc=\dimen195
-\pgf@xd=\dimen196
-\pgf@yd=\dimen197
-\w@pgf@writea=\write4
-\r@pgf@reada=\read4
-\c@pgf@counta=\count299
-\c@pgf@countb=\count300
-\c@pgf@countc=\count301
-\c@pgf@countd=\count302
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count303
- (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count304
-\pgfsyssoftpath@bigbuffer@items=\count305
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen198
-\pgfmath@count=\count306
-\pgfmath@box=\box65
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
-x)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
-.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
-ex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
-de.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
-x)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
-etics.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count307
-))
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen199
-\pgf@picmaxx=\dimen256
-\pgf@picminy=\dimen257
-\pgf@picmaxy=\dimen258
-\pgf@pathminx=\dimen259
-\pgf@pathmaxx=\dimen260
-\pgf@pathminy=\dimen261
-\pgf@pathmaxy=\dimen262
-\pgf@xx=\dimen263
-\pgf@xy=\dimen264
-\pgf@yx=\dimen265
-\pgf@yy=\dimen266
-\pgf@zx=\dimen267
-\pgf@zy=\dimen268
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
-e.tex
-File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen269
-\pgf@path@lasty=\dimen270
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
-x
-File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen271
-\pgf@shorten@start@additional=\dimen272
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count308
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
-.tex
-File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen273
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
-ode.tex
-File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen274
-\pgf@pt@y=\dimen275
-\pgf@pt@temp=\dimen276
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
-de.tex
-File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen277
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen278
-\pgf@sys@shading@range@num=\count309
-\pgf@shadingcount=\count310
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box69
-) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
-.tex
-File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
-x
-File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box70
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
-y
-Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen279
-\pgf@nodesepend=\dimen280
-)
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
-y
-Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen281
-\pgffor@skip=\dimen282
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
-))
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
-de.tex
-File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count311
-\pgfplotmarksize=\dimen283
-)
-\tikz@lastx=\dimen284
-\tikz@lasty=\dimen285
-\tikz@lastxsaved=\dimen286
-\tikz@lastysaved=\dimen287
-\tikz@lastmovetox=\dimen288
-\tikz@lastmovetoy=\dimen289
-\tikzleveldistance=\dimen290
-\tikzsiblingdistance=\dimen291
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count312
-\tikznumberofchildren=\count313
-\tikznumberofcurrentchild=\count314
-\tikz@fig@count=\count315
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count316
-\pgfmatrixcurrentcolumn=\count317
-\pgf@matrix@numberofcolumns=\count318
-)
-\tikz@expandcount=\count319
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarybackgrounds.code.tex
+\enit@outerparindent=\dimen291
+\enit@toks=\toks42
+\enit@inbox=\box74
+\enit@count@id=\count318
+\enitdp@description=\count319
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@layerbox@background=\box75
 \pgf@layerboxsaved@background=\box76
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarycalc.code.tex
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryintersections.code.tex
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
-ode.tex
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 \pgf@intersect@solutions=\count320
-))
-(c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryex
-ternal.code.tex
-(c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexternal.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+) (c:/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzex
-ternalshared.code.tex))
-(c:/texlive/2025/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
-(c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexternalshared.code.tex)) (c:/texlive/2025/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brary3d.code.tex
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-braryarrows.code.tex
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \arrowsize=\dimen292
 ))) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -817,17 +653,14 @@ Package: amsmath 2025/07/09 v2.17z AMS math features
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks43
 \ex@=\dimen293
-))
-(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen294
-)
-(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count321
@@ -877,22 +710,18 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks47
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(c:/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-
-(c:/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty
+ (c:/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count333
@@ -906,38 +735,30 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_shortintertext_sep=\dimen308
 \xmathstrut@box=\box79
 \xmathstrut@dim=\dimen309
-)
-(c:/texlive/2025/texmf-dist/tex/latex/doublestroke/dsfont.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
-)
-(c:/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip76
 \L@UnitsRaiseTextstyle=\skip77
 \L@UnitsRaiseScriptstyle=\skip78
-)
-(c:/texlive/2025/texmf-dist/tex/latex/was/icomma.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/extarrows/extarrows.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/extarrows/extarrows.sty
 Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
-)
-(c:/texlive/2025/texmf-dist/tex/latex/was/upgreek.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
-)
-(c:/texlive/2025/texmf-dist/tex/latex/esvect/esvect.sty
+) (c:/texlive/2025/texmf-dist/tex/latex/esvect/esvect.sty
 Package: esvect 
 \symesvector=\mathgroup7
-))
-(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)) (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count334
-)
-(./Karteikarten_Akademus.aux
+) (./Karteikarten_Akademus.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 6.
 )
@@ -978,7 +799,25 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmbr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count335
+\scratchdimen=\dimen310
+\scratchbox=\box80
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen311
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks49
+) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1013,31 +852,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen310
-\scratchbox=\box80
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen311
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks49
-) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 
-13.
-
+LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 13.
 (c:/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
@@ -1045,22 +860,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmbr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 13.
+ (c:/texlive/2025/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/cmbright/omscmbrs.fd
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 13.
+ (c:/texlive/2025/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 13.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1069,26 +878,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
+ (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
+) (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-eur.cfg
+) (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/esvect/uesvect.fd
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 13.
+ (c:/texlive/2025/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 
-13.
-
-(c:/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 13.
+ (c:/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1106,52 +908,43 @@ Overfull \hbox (12.59988pt too wide) in paragraph at lines 5--14
 []$[]$ 
  []
 
-<Hintergrund1.png, id=4, 421.0932pt x 298.716pt>
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 15.
+<1.png, id=4, 421.0932pt x 298.716pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 15.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
 [1
 
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
-texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2025/texmf-dist
-/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Hintergrund1.png (PNG copy)>]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 15--17
-[]$[]$ 
- []
-
-<Karteikarten Rückseite.png, id=13, 421.0932pt x 298.716pt>
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 18.
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./1.png (PNG copy)>]
+<2.png, id=14, 421.0932pt x 298.716pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 18.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[2
+ [2
 
- <./Karteikarten Rückseite.png (PNG copy)>]
+ <./2.png (PNG copy)>]
 Overfull \hbox (12.59988pt too wide) in paragraph at lines 18--21
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 22.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 22.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [3
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <17.28> on input line 24.
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 22--27
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 28.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 28.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[4
+ [4
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1163,2837 +956,2388 @@ Overfull \hbox (12.59988pt too wide) in paragraph at lines 28--33
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 34.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 34.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [5
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 34--45
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 46.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 46.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[6
+ [6
 
 ]
 Overfull \hbox (12.59988pt too wide) in paragraph at lines 46--51
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 52.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 52.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [7
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 52--67
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 68.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 68.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[8
+ [8
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 68--73
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 68--70
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 74.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 71.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [9
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 74--86
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 87.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 84.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[10
+ [10
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 87--92
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 84--89
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 93.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 90.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [11
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 93--101
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 102.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 99.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[12
+ [12
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 102--107
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 99--104
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 108.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 105.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [13
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 108--120
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 121.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 114.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[14
+ [14
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 121--126
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 114--119
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 127.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 120.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [15
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 127--135
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 136.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 133.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[16
+ [16
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 136--138
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 133--138
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 139.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 139.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [17
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 139--145
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 146.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 148.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[18
+ [18
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 146--153
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 148--150
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 154.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 151.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [19
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 154--160
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 161.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 158.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[20
+ [20
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 161--163
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 158--165
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 164.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 166.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [21
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 164--170
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 171.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 173.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[22
+ [22
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 171--173
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 173--175
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 174.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 176.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [23
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 174--180
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 181.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 183.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[24
+ [24
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 181--183
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 183--185
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 184.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 186.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [25
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 184--189
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 190.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 193.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[26
-
-]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 190--192
-[]$[]$ 
- []
-
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 193.
-(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[27
+ [26
 
 ]
 Overfull \hbox (12.59988pt too wide) in paragraph at lines 193--195
 []$[]$ 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 196.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 196.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[28
+[27
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 196--198
-[]$[]$ 
- []
-
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 199.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 202.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[29
-
-]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 199--201
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 202.
-(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[30
+ [28
 
 ]
 Overfull \hbox (12.59988pt too wide) in paragraph at lines 202--204
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 205.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 205.
+(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+[29
+
+]
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 212.
+(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+ [30
+
+]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 212--214
+[]$[]$ 
+ []
+
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 215.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [31
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 205--210
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 211.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 221.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[32
+ [32
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 211--213
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 221--223
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 214.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 224.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [33
 
 ]
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 218.
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 214--223
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 224.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 228.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 234.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[34
+ [34
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 224--227
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 234--238
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 228.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 239.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [35
 
 ]
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 237.
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 228--241
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 242.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 241.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 245.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[36
+ [36
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 242--246
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 245--247
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 247.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 248.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [37
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 247--259
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 260.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 254.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[38
+ [38
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 260--271
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 254--258
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 272.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 259.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [39
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 272--274
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 275.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 268.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[40
+ [40
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 275--284
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 268--272
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 285.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 273.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [41
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 285--287
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 288.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 282.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[42
+ [42
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 288--292
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 282--290
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 293.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 291.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [43
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 293--304
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 305.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 294.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[44
+ [44
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 305--308
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 294--303
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 309.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 304.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [45
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 309--316
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 317.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 307.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[46
+ [46
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 317--322
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 307--311
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 323.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 312.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [47
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 323--335
-[]$[]$ 
- []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 336.
+LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <7> not available
+(Font)              Font shape `OT1/cmbr/m/n' tried instead on input line 318.
+
+
+LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmbr/m/n' tried instead on input line 325.
+
+
+LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <6> not available
+(Font)              Font shape `OT1/cmbr/m/n' tried instead on input line 325.
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 326.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [48
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 336--341
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 326--329
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 342.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 330.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [49
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 342--354
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 355.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 339.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[50
+ [50
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 355--360
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 339--344
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 361.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 345.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [51
 
 ]
-Overfull \hbox (21.6133pt too wide) detected at line 366
-[] \OT1/cmbr/m/n/12 = []
- []
-
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 361--372
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 373.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 358.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[52
+ [52
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 373--378
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 358--363
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 379.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 364.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [53
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 379--388
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 389.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 377.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[54
+ [54
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 389--397
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 377--382
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 398.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 383.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [55
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 398--412
-[]$[]$ 
+Overfull \hbox (21.6133pt too wide) detected at line 388
+[] \OT1/cmbr/m/n/12 = []
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 413.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 395.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [56
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 413--415
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 395--400
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 416.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 401.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [57
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 416--424
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 425.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 412.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[58
+ [58
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 425--427
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 412--420
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 428.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 421.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [59
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 428--432
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 433.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 435.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[60
+ [60
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 433--435
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 435--437
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 436.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 438.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [61
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 436--438
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 440.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 447.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[62
+ [62
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 440--448
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 447--449
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 449.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 450.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [63
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 449--456
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 457.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 455.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[64
+ [64
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 457--465
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 455--457
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 466.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 458.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [65
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 466--473
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 474.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 489.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[66
+ [66
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 474--478
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 489--497
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 480.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 498.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [67
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 480--489
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 491.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 506.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[68
+ [68
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 491--495
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 506--514
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 496.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 515.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [69
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 496--505
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 506.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 523.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[70
+ [70
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 506--510
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 523--527
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 511.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 529.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [71
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 511--524
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 525.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 540.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[72
+ [72
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 525--529
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 540--544
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 530.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 545.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [73
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 530--545
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 546.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 555.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[74
+ [74
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 546--548
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 555--569
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 550.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 570.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [75
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 550--562
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 564.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 584.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[76
+ [76
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 564--566
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 584--586
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 567.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 587.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [77
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 567--579
-[]$[]$ 
+Overfull \hbox (1.32056pt too wide) in paragraph at lines 589--589
+ []|$\OML/cmbrm/m/it/17.28 F\OT1/cmbr/m/n/17.28 (-20) (\OML/cmbrm/m/it/17.28 x\OT1/cmbr/m/n/17.28 (-20) )$| 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 580.
+
+Overfull \hbox (1.88055pt too wide) in paragraph at lines 591--591
+ []|$\OML/cmbrm/m/it/17.28 f[]\OT1/cmbr/m/n/17.28 (-20) (\OML/cmbrm/m/it/17.28 x\OT1/cmbr/m/n/17.28 (-20) )$| 
+ []
+
+
+Overfull \hbox (5.18054pt too wide) in paragraph at lines 592--592
+ []|$\OML/cmbrm/m/it/17.28 f[]\OT1/cmbr/m/n/17.28 (-20) (\OML/cmbrm/m/it/17.28 x\OT1/cmbr/m/n/17.28 (-20) )$| 
+ []
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 596.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [78
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 580--582
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 596--598
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 583.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 599.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [79
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 583--591
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 592.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 613.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[80
+ [80
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 592--594
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 613--615
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 595.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 616.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [81
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 595--601
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 602.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 625.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[82
+ [82
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 602--604
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 625--627
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 605.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 628.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [83
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 605--611
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 612.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 635.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[84
+ [84
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 612--614
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 635--637
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 615.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 638.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [85
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 615--619
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 620.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 645.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[86
+ [86
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 620--630
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 645--647
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 631.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 648.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [87
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 631--641
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 642.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 653.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[88
-
-]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 642--652
-[]$[]$ 
- []
-
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 653.
-(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[89
+ [88
 
 ]
 Overfull \hbox (12.59988pt too wide) in paragraph at lines 653--663
 []$[]$ 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 664.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 664.
+(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+[89
+
+]
+Overfull \hbox (17.54782pt too wide) in paragraph at lines 673--674
+ [][] 
+ []
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 675.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [90
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 664--674
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 675--685
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 675.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 686.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [91
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 675--684
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 685.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 697.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[92
+ [92
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 685--695
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 697--707
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 696.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 708.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [93
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 696--710
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 711.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 726.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[94
+ [94
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 711--715
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 726--736
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 716.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 737.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [95
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 716--729
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 730.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 755.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[96
+ [96
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 730--734
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 755--759
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 735.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 760.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [97
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 735--744
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 745.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 774.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[98
+ [98
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 745--747
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 774--776
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 748.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 777.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [99
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 748--756
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 757.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 783.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[100
+ [100
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 757--761
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 783--838
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 762.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 839.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [101
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 762--766
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 767.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 849.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[102
+ [102
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 767--770
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 849--851
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 771.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 852.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [103
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 771--773
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 774.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 863.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[104
+ [104
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 774--777
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 863--867
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 778.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 868.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [105
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 778--783
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 784.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 904.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[106
+ [106
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 784--787
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 904--907
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 788.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 908.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [107
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 788--799
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 800.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 939.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[108
+ [108
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 800--803
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 939--942
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 804.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 943.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [109
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 804--813
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 814.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 949.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[110
+ [110
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 814--817
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 949--952
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 818.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 953.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [111
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 818--822
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 823.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 966.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[112
+ [112
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 823--830
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 966--969
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 831.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 970.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [113
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 831--837
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 838.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 980.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[114
+ [114
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 838--845
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 980--983
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 846.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 984.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [115
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 846--854
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 855.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 992.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[116
+ [116
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 855--862
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 992--999
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 863.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1000.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [117
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 863--871
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 872.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1007.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[118
+ [118
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 872--879
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1007--1014
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 880.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1015.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [119
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 880--888
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 889.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1024.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[120
+ [120
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 889--896
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1024--1031
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 897.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1032.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [121
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 897--905
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 906.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1041.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[122
+ [122
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 906--913
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1041--1048
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 914.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1049.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [123
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 914--922
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 923.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1058.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[124
+ [124
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 923--930
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1058--1065
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 931.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1066.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [125
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 931--939
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 940.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1077.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[126
+ [126
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 940--947
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1077--1084
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 948.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1085.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [127
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 948--956
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 957.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1095.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[128
+ [128
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 957--964
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1095--1102
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 965.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1103.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [129
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 965--973
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 974.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1112.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[130
+ [130
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 974--977
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1112--1119
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 978.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1120.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [131
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 978--988
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 989.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1129.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[132
+ [132
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 989--992
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1129--1136
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 993.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1137.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [133
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 993--997
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 998.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1146.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[134
+ [134
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 998--1001
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1146--1149
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1002.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1150.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [135
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1002--1009
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1010.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1161.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[136
+ [136
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1010--1013
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1161--1164
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1014.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1165.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [137
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1014--1022
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1023.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1170.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[138
+ [138
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1023--1026
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1170--1173
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1027.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1174.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [139
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1027--1032
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1033.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1184.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[140
+ [140
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1033--1036
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1184--1186
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1037.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1187.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [141
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1037--1042
-[]$[]$ 
- []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1043.
+LaTeX Font Warning: Command \huge invalid in math mode on input line 1189.
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1195.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [142
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1043--1046
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1195--1197
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1047.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1198.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [143
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1047--1060
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1061.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1212.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[144
+ [144
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1061--1064
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1212--1215
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1065.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1216.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [145
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1065--1074
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1075.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1222.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[146
+ [146
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1075--1078
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1222--1225
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1079.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1226.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [147
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1079--1086
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1087.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1232.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[148
+ [148
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1087--1090
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1232--1236
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1091.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1237.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [149
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1091--1096
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1097.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1249.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[150
+ [150
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1097--1100
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1249--1253
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1101.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1254.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [151
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1101--1106
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1107.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1264.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[152
+ [152
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1107--1111
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1264--1267
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1112.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1268.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [153
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1112--1115
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1116.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1284.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[154
+ [154
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1116--1124
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1284--1287
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1125.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1288.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [155
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1125--1130
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1131.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1304.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[156
+ [156
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1131--1135
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1304--1307
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1136.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1308.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [157
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1136--1139
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1140.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1314.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[158
+ [158
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1140--1142
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1314--1318
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1143.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1319.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [159
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1143--1149
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1150.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1323.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[160
+ [160
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1150--1154
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1323--1331
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1155.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1332.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [161
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1155--1161
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1162.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1338.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[162
+ [162
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1162--1166
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1338--1342
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1167.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1343.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [163
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1167--1173
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1174.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1347.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[164
+ [164
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1174--1178
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1347--1349
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1179.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1350.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [165
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1179--1189
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1190.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1357.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[166
+ [166
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1190--1194
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1357--1361
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1195.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1362.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [167
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1195--1202
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1203.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1369.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[168
+ [168
 
 ]
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <24.88> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1205.
-
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1203--1207
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1369--1373
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1208.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1374.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [169
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1208--1219
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1220.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1381.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[170
+ [170
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1220--1224
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1381--1385
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1225.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1386.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [171
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1225--1229
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1230.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1397.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[172
+ [172
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1230--1234
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1397--1401
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1235.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1402.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [173
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1235--1247
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1248.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1410.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[174
+ [174
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1248--1252
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <24.88> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1412.
+
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1410--1414
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1253.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1415.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [175
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1253--1257
-[]$[]$ 
- []
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 1430.
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1258.
+
+LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <5> not available
+(Font)              Font shape `OT1/cmbr/m/n' tried instead on input line 1430.
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1450.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [176
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1258--1262
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1450--1454
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1263.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1455.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [177
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1263--1267
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1268.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1460.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[178
+ [178
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1268--1270
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1460--1487
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1271.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1488.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [179
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1271--1278
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1279.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1501.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[180
+ [180
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1279--1281
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1501--1505
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1282.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1506.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [181
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1282--1287
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1288.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1546.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[182
+ [182
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1288--1290
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1546--1548
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1291.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1549.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [183
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1291--1296
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1297.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1557.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[184
+ [184
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1297--1299
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1557--1559
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1300.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1560.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [185
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1300--1311
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1312.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1566.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[186
+ [186
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1312--1314
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1566--1568
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1315.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1569.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [187
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1315--1326
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1327.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1575.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[188
+ [188
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1327--1329
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1575--1577
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1330.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1578.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [189
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1330--1341
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1342.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1590.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[190
+ [190
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1342--1344
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1590--1592
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1345.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1593.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [191
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1345--1356
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1357.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1606.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[192
+ [192
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1357--1359
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1606--1608
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1360.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1609.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [193
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1360--1372
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1373.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1621.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[194
+ [194
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1373--1375
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1621--1623
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1376.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1624.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [195
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1376--1386
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1387.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1641.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[196
+ [196
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1387--1390
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1641--1643
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1391.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1644.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [197
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1391--1398
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1399.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1660.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[198
+ [198
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1399--1402
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1660--1662
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1403.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1663.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [199
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1403--1412
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1413.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1674.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[200
+ [200
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1413--1417
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1674--1677
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1418.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1678.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [201
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1418--1425
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1426.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1686.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[202
+ [202
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1426--1430
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1686--1689
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1431.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1690.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [203
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1431--1440
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1441.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1700.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[204
+ [204
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1441--1447
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1700--1705
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1448.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1706.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [205
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1448--1457
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1458.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1714.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[206
+ [206
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1458--1462
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1714--1718
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1463.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1719.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [207
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1463--1474
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1475.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1729.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[208
+ [208
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1475--1479
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1729--1735
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1480.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1736.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [209
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1480--1487
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1489.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1746.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[210
+ [210
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1489--1495
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1746--1750
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1496.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1751.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [211
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1496--1508
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1510.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1763.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[212
+ [212
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1510--1514
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1763--1767
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1515.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1768.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [213
 
 ]
-<schema_gerade_gerade.pdf, id=701, 441.35088pt x 292.13239pt>
-File: schema_gerade_gerade.pdf Graphic file (type pdf)
-<use schema_gerade_gerade.pdf>
-Package pdftex.def Info: schema_gerade_gerade.pdf  used on input line 1516.
-(pdftex.def)             Requested size: 312.9803pt x 207.16582pt.
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1515--1519
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1520.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1774.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[214
+ [214
 
- <./schema_gerade_gerade.pdf>]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1520--1524
+]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1774--1780
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1525.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1781.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [215
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1525--1532
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1533.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1795.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[216
+ [216
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1533--1536
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1795--1799
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1537.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1800.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [217
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1537--1544
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1545.
+<schema_gerade_gerade.pdf, id=719, 441.35088pt x 292.13239pt>
+File: schema_gerade_gerade.pdf Graphic file (type pdf)
+<use schema_gerade_gerade.pdf>
+Package pdftex.def Info: schema_gerade_gerade.pdf  used on input line 1802.
+(pdftex.def)             Requested size: 284.52756pt x 188.33255pt.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1806.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[218
+ [218
 
-]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1545--1548
+ <./schema_gerade_gerade.pdf>]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1806--1810
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1549.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1811.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [219
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1549--1556
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1557.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1819.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[220
+ [220
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1557--1564
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1819--1822
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1565.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1823.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [221
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1565--1572
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1573.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1831.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[222
+ [222
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1573--1580
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1831--1834
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1581.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1835.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [223
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1581--1588
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1589.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1842.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[224
+ [224
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1589--1592
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1842--1849
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1593.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1850.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [225
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1593--1601
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1602.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1858.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[226
+ [226
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1602--1605
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1858--1865
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1606.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1866.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [227
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1606--1618
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1619.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1874.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[228
+ [228
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1619--1625
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1874--1877
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1626.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1878.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [229
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1626--1648
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1649.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1887.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[230
+ [230
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1649--1653
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1887--1890
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1654.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1891.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [231
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1654--1663
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1664.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1903.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[232
+ [232
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1664--1666
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1903--1909
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1667.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1910.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [233
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1667--1675
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1676.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1933.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[234
+ [234
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1676--1683
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1933--1937
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1684.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1938.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [235
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1684--1693
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1694.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1948.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[236
+ [236
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1694--1697
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1948--1950
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1698.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1951.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [237
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1698--1705
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1706.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1960.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[238
+ [238
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1706--1711
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1960--1967
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1712.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1968.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [239
 
 ]
-<schema_ebene_gerade.pdf, id=810, 413.93243pt x 191.65703pt>
-File: schema_ebene_gerade.pdf Graphic file (type pdf)
-<use schema_ebene_gerade.pdf>
-Package pdftex.def Info: schema_ebene_gerade.pdf  used on input line 1713.
-(pdftex.def)             Requested size: 369.88582pt x 171.27315pt.
-
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 1713--1714
- [][] 
- []
-
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1712--1714
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1715.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1978.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[240
+ [240
 
- <./schema_ebene_gerade.pdf>]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1715--1721
+]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1978--1981
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1722.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1982.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [241
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1722--1736
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1737.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 1990.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[242
+ [242
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1737--1740
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 1990--1995
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1741.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 1996.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [243
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1741--1748
-[]$[]$ 
+<schema_ebene_gerade.pdf, id=829, 413.93243pt x 191.65703pt>
+File: schema_ebene_gerade.pdf Graphic file (type pdf)
+<use schema_ebene_gerade.pdf>
+Package pdftex.def Info: schema_ebene_gerade.pdf  used on input line 1998.
+(pdftex.def)             Requested size: 369.88582pt x 171.27315pt.
+
+Overfull \hbox (5.69048pt too wide) in paragraph at lines 1998--1999
+ [][] 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1749.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2000.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [244
 
-]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1749--1752
+ <./schema_ebene_gerade.pdf>]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2000--2006
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1753.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2007.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [245
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1753--1762
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1763.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2022.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[246
+ [246
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1763--1766
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2022--2025
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1767.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2026.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [247
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1767--1778
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1779.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2034.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[248
+ [248
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1779--1782
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2034--2037
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1783.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2038.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [249
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1783--1790
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1791.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2048.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[250
+ [250
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1791--1794
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2048--2051
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1795.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2052.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [251
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1795--1802
-[]$[]$ 
+Overfull \hbox (15.02544pt too wide) in paragraph at lines 2095--2096
+[][] 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1803.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2098.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [252
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1803--1806
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2098--2101
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1807.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2102.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [253
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1807--1815
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1816.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2110.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[254
+ [254
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1816--1819
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2110--2113
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1820.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2114.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [255
 
 ]
-<schema_ebene_ebene.pdf, id=875, 426.7734pt x 189.98979pt>
-File: schema_ebene_ebene.pdf Graphic file (type pdf)
-<use schema_ebene_ebene.pdf>
-Package pdftex.def Info: schema_ebene_ebene.pdf  used on input line 1821.
-(pdftex.def)             Requested size: 369.88582pt x 164.67229pt.
-
-Overfull \hbox (5.69048pt too wide) in paragraph at lines 1821--1822
- [][] 
- []
-
-
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1820--1823
-[]$[]$ 
- []
-
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1824.
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2123.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[256
+ [256
 
- <./schema_ebene_ebene.pdf>]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1824--1827
+]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2123--2126
 []$[]$ 
  []
 
-File: Hintergrund1.png Graphic file (type png)
-<use Hintergrund1.png>
-Package pdftex.def Info: Hintergrund1.png  used on input line 1828.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2127.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
 [257
 
 ]
-Overfull \hbox (12.59988pt too wide) in paragraph at lines 1828--1836
+<schema_ebene_ebene.pdf, id=886, 426.7734pt x 189.98979pt>
+File: schema_ebene_ebene.pdf Graphic file (type pdf)
+<use schema_ebene_ebene.pdf>
+Package pdftex.def Info: schema_ebene_ebene.pdf  used on input line 2129.
+(pdftex.def)             Requested size: 369.88582pt x 164.67229pt.
+
+Overfull \hbox (5.69048pt too wide) in paragraph at lines 2129--2130
+ [][] 
+ []
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2132.
+(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+[258
+
+ <./schema_ebene_ebene.pdf>]
+Overfull \hbox (12.59988pt too wide) in paragraph at lines 2132--2135
 []$[]$ 
  []
 
-File: Karteikarten Rückseite.png Graphic file (type png)
-<use Karteikarten Rückseite.png>
-Package pdftex.def Info: Karteikarten Rückseite.png  used on input line 1837.
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 2136.
 (pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
-[258
+[259
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2142--2178
+[]$[] \OT1/cmbr/m/n/17.28 (+20) = [] + 2 \OMS/cmbrs/m/n/17.28 ^^A []$
+ []
+
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 2180.
+(pdftex.def)             Requested size: 421.12428pt x 298.77907pt.
+[260
 
 ] (./Karteikarten_Akademus.aux)
  ***********
@@ -4002,29 +3346,18 @@ L3 programming layer <2025-11-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26423 strings out of 467538
- 557162 string characters out of 5423724
- 1118887 words of memory out of 5000000
- 54673 multiletter control sequences out of 15000+600000
- 667097 words of font info for 229 fonts, out of 8000000 for 9000
+ 26992 strings out of 467538
+ 568634 string characters out of 5423724
+ 1129403 words of memory out of 5000000
+ 55214 multiletter control sequences out of 15000+600000
+ 672886 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,11254b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texliv
-e/2025/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2025/texmf
--dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/t
-ype1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/publi
-c/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright
-/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.p
-fb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dis
-t/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/typ
-e1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
-m-super/sfbmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/esvect/vect1
-0.pfb>
-Output written on Karteikarten_Akademus.pdf (258 pages, 2010018 bytes).
+ 115i,20n,110p,11310b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/esvect/vect10.pfb>
+Output written on Karteikarten_Akademus.pdf (260 pages, 2042671 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 662 compressed objects within 7 object streams
+ 986 PDF objects out of 1000 (max. 8388607)
+ 676 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 65574 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 90158 words of extra memory for PDF output out of 106986 (max. 10000000)
 

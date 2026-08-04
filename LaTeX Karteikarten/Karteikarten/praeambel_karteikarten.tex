@@ -2,10 +2,12 @@
 \usepackage[utf8]{inputenc}		% Eingabekodierung
 \usepackage[T1]{fontenc}		% Ausgabekodierung und Vektorschrift
 \usepackage{lmodern}			% verbesserte Fassung der Schriftart Computer Modern
-\usepackage{babel}				% Sprachunterstützung und Trennregeln
+\usepackage[ngerman]{babel}				% Sprachunterstützung und Trennregeln
 \usepackage{microtype}			% verbesserte Trennregeln durch Berücksichtigung der Mikrotypographie
 
 \usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
 
 
 % % % Seitenraender % % %
@@ -31,6 +33,7 @@
 	\clearpage
 	\thispagestyle{scrheadings}
 	\vspace*{\fill}
+	\noindent
 	\begin{minipage}[c][0.7\textheight][c]{\textwidth} % Gleiche Box für die Antwort
 		\centering\Large
 	}{%
@@ -48,7 +51,7 @@
 	\rehead[]{}
 	
 	\lefoot[]{}
-	\cefoot[]{\textcolor{white}{www.akademus.de}}
+	\cefoot[]{\textcolor{white}{\textbf{\thekartennummer}}}
 	\refoot[]{}
 	
 	\lohead[]{}
@@ -56,7 +59,7 @@
 	\rohead[]{}
 	
 	\lofoot[]{}
-	\cofoot[]{\thekartennummer}					% Fußzeile mittig
+	\cofoot[]{\textbf{\thekartennummer}}					% Fußzeile mittig
 	\rofoot[]{}
 	\pagestyle{scrheadings}
 
@@ -65,7 +68,7 @@ background,
 oddpage,   
 align=tl,    
 area={0pt}{0pt}{\paperwidth}{\paperheight},
-contents={\includegraphics[width=\paperwidth,height=\paperheight]{Hintergrund1.png}}
+contents={\includegraphics[width=\paperwidth,height=\paperheight]{1.png}}
 ]{mein.hintergrund.ungerade}
 
 % Layer für gerade Seiten (Rückseite)
@@ -74,7 +77,7 @@ background,
 evenpage, 
 align=tl,    
 area={0pt}{0pt}{\paperwidth}{\paperheight},
-contents={\includegraphics[width=\paperwidth,height=\paperheight]{Karteikarten Rückseite.png}}
+contents={\includegraphics[width=\paperwidth,height=\paperheight]{2.png}}
 ]{mein.hintergrund.gerade}
 
 % Jetzt fügen wir die Layer dem Stil hinzu, den du in deinen Umgebungen nutzt

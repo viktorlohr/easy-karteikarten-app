@@ -9,7 +9,7 @@ class PrivacyInfoScreen extends StatelessWidget {
   Future<String> _loadText(BuildContext context) async {
     return await DefaultAssetBundle.of(
       context,
-    ).loadString('lib/assets/datenschutz.txt');
+    ).loadString('assets/datenschutz.txt');
   }
 
   @override

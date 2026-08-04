@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset(
-          'lib/assets/images/akademus_logo.jpg',
+          'assets/images/akademus_logo.jpg',
           height: 80,
           fit: BoxFit.contain,
         ),
@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('lib/assets/images/background_female.jpg'),
+                  image: AssetImage('assets/images/background_female.jpg'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -96,7 +96,7 @@ class PlaceholderScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset(
-          'lib/assets/images/akademus_logo.jpg',
+          'assets/images/akademus_logo.jpg',
           height: 80,
           fit: BoxFit.contain,
         ),

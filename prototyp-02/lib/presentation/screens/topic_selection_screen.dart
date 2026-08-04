@@ -9,7 +9,7 @@ class TopicSelectionScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return GridSelectionScreen(
       title: 'Thema wählen',
-      backgroundPath: 'lib/assets/images/background_male.jpg',
+      backgroundPath: 'assets/images/background_male.jpg',
       items: const [
         {'label': 'Analysis', 'icon': Icons.show_chart},
         {'label': 'Geometrie', 'icon': Icons.square_foot},

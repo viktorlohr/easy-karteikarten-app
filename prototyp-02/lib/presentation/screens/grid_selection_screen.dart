@@ -12,7 +12,7 @@ class GridSelectionScreen extends StatelessWidget {
     required this.title,
     required this.items,
     required this.onItemSelected,
-    this.backgroundPath = 'lib/assets/images/background_female.jpg',
+    this.backgroundPath = 'assets/images/background_female.jpg',
   });
 
   @override
@@ -20,7 +20,7 @@ class GridSelectionScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset(
-          'lib/assets/images/akademus_logo.jpg',
+          'assets/images/akademus_logo.jpg',
           height: 80,
           fit: BoxFit.contain,
         ),

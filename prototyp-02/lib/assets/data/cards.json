@@ -1,0 +1,20 @@
+{
+  "Analysis": [
+    {
+      "front": "assets/test/analysis_front.webp",
+      "back": "assets/test/analysis_back.webp"
+    }
+  ],
+  "Geometrie": [
+    {
+      "front": "assets/test/geo_front.webp",
+      "back": "assets/test/geo_back.webp"
+    }
+  ],
+  "Stochastik": [
+    {
+      "front": "assets/test/stoch_front.webp",
+      "back": "assets/test/stoch_back.webp"
+    }
+  ]
+}

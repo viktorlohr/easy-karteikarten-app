@@ -1,0 +1,44 @@
+\documentclass{scrartcl}
+\input{preamble.tex}
+\setSmallFont
+
+
+\begin{document}
+\begin{preview}
+\globalcolor{akademusBlue}
+\begin{minipage}{\myPageWidth}
+\begin{marked}
+    Eine Funktion $f(x)$ hat eine \textbf{Polstelle} bei $x_0$, 
+    wenn der \emph{Nenner} dort gegen \emph{Null} konvergiert,
+    der \emph{Zähler} jedoch \emph{nicht}.  
+\end{marked}
+
+Es gilt:
+\[ \lim_{x \to x_0} |f(x)| = \infty \]
+
+\begin{example}
+    \[ f(x) = \frac{3}{x - 2} \]
+    hat eine Polstelle bei 
+    \(x=2.\)
+\end{example}
+
+\begin{center}
+    \begin{tikzpicture}
+    \begin{axis}
+        % The plot inherits width, color (set locally), and thickness from global settings
+        \addplot [domain=-3:1.8, color=myBlue] {3/(x-2)};
+
+        \addplot [domain=2.2:7, color=myBlue] {3/(x-2)}
+            node[near end, above right] {$G_f$};
+        
+        % Asymptote guide
+        \draw [dashed, myOrange] (axis cs:2,-10) -- 
+        node [near start, right] {$x=2$}
+        (axis cs:2,10);
+    \end{axis}
+    \end{tikzpicture}
+\end{center}
+
+\end{minipage}
+\end{preview}
+\end{document}

@@ -6,12 +6,12 @@ class FlashcardService {
   final _storage = SharedPrefStorage();
 
   Future<List<Flashcard>> getFlashcards() async {
-    final cards = await _storage.getFlashcards();
-    if (cards.isEmpty) {
-      await _storage.saveFlashcards(dummyCards);
-      return dummyCards;
-    }
-    return cards;
+    // final cards = await _storage.getFlashcards();
+    // if (cards.isEmpty) {
+    await _storage.saveFlashcards(dummyCards);
+    return dummyCards;
+    // }
+    // return cards;
   }
 
   Future<Flashcard> getFlashcard(String id) async {
@@ -40,7 +40,9 @@ class FlashcardService {
     final cards = await getFlashcards();
     final query = searchQuery.toLowerCase().trim();
     return cards.where((c) {
-      final inCategory = c.tags.contains(category);
+      final inCategory =
+          c.tags.contains(category.toLowerCase().trim()) ||
+          c.tags.contains(category.trim());
       final matchesSearch =
           query.isEmpty || c.front.toLowerCase().contains(query);
       return inCategory && matchesSearch;

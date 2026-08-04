@@ -7,11 +7,14 @@ class SharedPrefStorage {
 
   Future<List<Flashcard>> getFlashcards() async {
     final prefs = await SharedPreferences.getInstance();
+    await prefs.clear(); // TODO: DEBUG ONLY!
     final jsonString = prefs.getString(_storageKey);
     if (jsonString == null) return [];
     try {
       final decoded = jsonDecode(jsonString) as List;
-      return decoded.map((e) => Flashcard.fromJson(e as Map<String, dynamic>)).toList();
+      return decoded
+          .map((e) => Flashcard.fromJson(e as Map<String, dynamic>))
+          .toList();
     } catch (_) {
       return [];
     }
@@ -19,7 +22,10 @@ class SharedPrefStorage {
 
   Future<void> saveFlashcards(List<Flashcard> flashcards) async {
     final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_storageKey, jsonEncode(flashcards.map((c) => c.toJson()).toList()));
+    await prefs.setString(
+      _storageKey,
+      jsonEncode(flashcards.map((c) => c.toJson()).toList()),
+    );
   }
 
   Future<void> addFlashcard(Flashcard card) async {
@@ -31,7 +37,10 @@ class SharedPrefStorage {
   Future<void> updateFlashcard(Flashcard updated) async {
     final cards = await getFlashcards();
     final i = cards.indexWhere((c) => c.id == updated.id);
-    if (i != -1) { cards[i] = updated; await saveFlashcards(cards); }
+    if (i != -1) {
+      cards[i] = updated;
+      await saveFlashcards(cards);
+    }
   }
 
   Future<void> removeFlashcard(String id) async {

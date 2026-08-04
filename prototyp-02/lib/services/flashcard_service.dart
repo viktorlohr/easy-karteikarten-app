@@ -1,6 +1,7 @@
 import '../storage/shared_pref_storage.dart';
 import '../models/flashcard.dart';
 import '../assets/dummy_flashcards.dart';
+import 'dart:convert';
 
 class FlashcardService {
   final _storage = SharedPrefStorage();
@@ -58,5 +59,38 @@ class FlashcardService {
           : cards[i].decreaseProficiency();
       await _storage.updateFlashcard(updated);
     }
+  }
+
+  // lib/services/flashcard_service.dart
+
+  Future<String> exportToJson() async {
+    final cards = await getFlashcards();
+    return const JsonEncoder.withIndent(
+      '  ',
+    ).convert(cards.map((c) => c.toJson()).toList());
+  }
+
+  Future<int> importFromJson(String jsonString, {bool merge = true}) async {
+    final decoded = jsonDecode(jsonString);
+    if (decoded is! List) {
+      throw const FormatException('Expected a JSON array of flashcards.');
+    }
+    final imported = decoded
+        .cast<Map<String, dynamic>>()
+        .map(Flashcard.fromJson)
+        .toList();
+
+    if (merge) {
+      final existing = await getFlashcards();
+      final existingIds = existing.map((c) => c.id).toSet();
+      final toAdd = imported.where((c) => !existingIds.contains(c.id)).toList();
+      if (toAdd.isNotEmpty) {
+        existing.addAll(toAdd);
+        await _storage.saveFlashcards(existing);
+      }
+    } else {
+      await _storage.saveFlashcards(imported);
+    }
+    return imported.length;
   }
 }

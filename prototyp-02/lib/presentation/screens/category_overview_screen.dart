@@ -4,6 +4,8 @@ import '../../services/flashcard_service.dart';
 import '../../markdown/app_markdown.dart';
 import 'category_flashcard_screen.dart';
 import 'flashcard_editor_screen.dart';
+import 'package:file_picker/file_picker.dart';
+import 'dart:convert';
 
 class CategoryOverviewScreen extends StatefulWidget {
   final String category;
@@ -26,6 +28,25 @@ class _CategoryOverviewScreenState extends State<CategoryOverviewScreen> {
   void initState() {
     super.initState();
     _load();
+  }
+
+  Future<void> _importCards() async {
+    final result = await FilePicker.pickFiles(
+      type: FileType.custom,
+      allowedExtensions: ['json'],
+      withData: true,
+    );
+    if (result == null || result.files.isEmpty) return;
+    final bytes = result.files.single.bytes;
+    if (bytes == null) return;
+
+    final count = await _service.importFromJson(utf8.decode(bytes));
+    await _load();
+    if (mounted) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('$count Karten importiert')));
+    }
   }
 
   Future<void> _load() async {

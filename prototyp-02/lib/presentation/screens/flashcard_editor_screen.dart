@@ -5,11 +5,12 @@ import '../../constants/app_spacing.dart';
 import '../widgets/snippets/snippet.dart';
 import '../widgets/snippets/snippet_panel.dart';
 import '../../markdown/app_markdown.dart';
+import '../../constants/categories.dart';
 
 enum _EditorField { front, back }
 
 class FlashcardEditorScreen extends StatefulWidget {
-  final String? userId;
+  final String fixedCategory;
   final Flashcard? flashcardToEdit;
   const FlashcardEditorScreen({
     super.key,
@@ -23,16 +24,16 @@ class FlashcardEditorScreen extends StatefulWidget {
 
 class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
   final _formKey = GlobalKey<FormState>();
+  final _flashcardService = FlashcardService();
 
   late TextEditingController _frontController;
   late TextEditingController _backController;
-  late TextEditingController _tagInputController;
+  late String _selectedCategory;
 
   late FocusNode _frontFocusNode;
   late FocusNode _backFocusNode;
   _EditorField _activeField = _EditorField.front;
 
-  final List<String> _tags = [];
   bool _isLoading = false;
 
   bool get _isEditing => widget.flashcardToEdit != null;
@@ -52,8 +53,9 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
     _backController = TextEditingController(
       text: widget.flashcardToEdit?.back ?? '',
     );
-    _tagInputController = TextEditingController();
-    _tags.addAll(widget.flashcardToEdit?.tags ?? []);
+
+    _selectedCategory =
+        widget.flashcardToEdit?.tags.firstOrNull ?? widget.fixedCategory;
 
     _frontFocusNode = FocusNode()
       ..addListener(() {
@@ -73,7 +75,6 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
   void dispose() {
     _frontController.dispose();
     _backController.dispose();
-    _tagInputController.dispose();
     _frontFocusNode.dispose();
     _backFocusNode.dispose();
     super.dispose();
@@ -99,22 +100,6 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
     _activeFocusNode.requestFocus();
   }
 
-  void _addTag() {
-    final newTag = _tagInputController.text.trim().toLowerCase();
-    if (newTag.isNotEmpty && !_tags.contains(newTag)) {
-      setState(() {
-        _tags.add(newTag);
-        _tagInputController.clear();
-      });
-    }
-  }
-
-  void _removeTag(String tag) {
-    setState(() {
-      _tags.remove(tag);
-    });
-  }
-
   Future<void> _saveCard() async {
     if (!_formKey.currentState!.validate()) return;
 
@@ -125,7 +110,6 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
         final updatedCard = widget.flashcardToEdit!.copyWith(
           front: _frontController.text.trim(),
           back: _backController.text.trim(),
-          tags: _tags,
           lastUpdated: DateTime.now(),
         );
         await _flashcardService.updateFlashcard(updatedCard);
@@ -134,7 +118,7 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
           id: DateTime.now().millisecondsSinceEpoch.toString(),
           front: _frontController.text.trim(),
           back: _backController.text.trim(),
-          tags: _tags,
+          tags: [_selectedCategory],
           proficiency: 0,
           lastUpdated: DateTime.now(),
         );
@@ -213,13 +197,13 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
         (widget.flashcardToEdit?.back ?? '').trim();
 
     // Compare tags list
-    final initialTags = widget.flashcardToEdit?.tags ?? [];
-    final tagsChanged =
-        _tags.length != initialTags.length ||
-        !_tags.every((tag) => initialTags.contains(tag));
+    final categoryChanged =
+        _selectedCategory !=
+        (widget.flashcardToEdit?.tags.firstOrNull ?? widget.fixedCategory);
+    // use categoryChanged instead of tagsChanged in the "if nothing changed" check
 
     // If nothing changed, allow exit immediately
-    if (!frontChanged && !backChanged && !tagsChanged) {
+    if (!frontChanged && !backChanged && !categoryChanged) {
       return true;
     }
 
@@ -284,53 +268,24 @@ class _FlashcardEditorScreenState extends State<FlashcardEditorScreen> {
                     children: [
                       //Tags
                       const Text(
-                        'Tags',
+                        'Kategorie',
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       const SizedBox(height: AppSpacing.xs),
-
-                      Row(
-                        children: [
-                          Expanded(
-                            child: TextField(
-                              controller: _tagInputController,
-                              decoration: const InputDecoration(
-                                hintText: 'Add a tag...',
-                                isDense: true,
-                                border: OutlineInputBorder(),
-                              ),
-                              onSubmitted: (_) => _addTag(),
-                            ),
-                          ),
-                          const SizedBox(width: AppSpacing.sm),
-                          ElevatedButton(
-                            onPressed: _addTag,
-                            child: const Text('Add'),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: AppSpacing.sm),
-
-                      Wrap(
-                        spacing: AppSpacing.xs,
-                        children: _tags.map((tag) {
-                          return Chip(
-                            label: Text(tag),
-                            deleteIcon: const Icon(Icons.close, size: 14),
-                            onDeleted: () => _removeTag(tag),
-                          );
-                        }).toList(),
-                      ),
-
-                      const SizedBox(height: AppSpacing.xs),
-                      // Preview
-                      Text(
-                        'Preview',
-                        style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                      DropdownButtonFormField<String>(
+                        initialValue: _selectedCategory,
+                        items: flashcardCategories
+                            .map(
+                              (c) => DropdownMenuItem(value: c, child: Text(c)),
+                            )
+                            .toList(),
+                        onChanged: (v) =>
+                            setState(() => _selectedCategory = v!),
+                        decoration: const InputDecoration(
+                          border: OutlineInputBorder(),
                         ),
                       ),
                       const SizedBox(height: 4),

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "analysis_001",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_001_front.webp",
+    "back": "assets/flashcards/analysis/analysis_001_back.webp"
+  },
+  {
+    "id": "analysis_002",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_002_front.webp",
+    "back": "assets/flashcards/analysis/analysis_002_back.webp"
+  },
+  {
+    "id": "geometrie_001",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_001_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_001_back.webp"
+  },
+  {
+    "id": "stochastik_001",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_001_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_001_back.webp"
+  }
+]

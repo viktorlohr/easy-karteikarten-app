@@ -1,10 +1,10 @@
 {
   "roots": [
-    "karteikarten_prototyp_03"
+    "karteikarten_prototyp_04"
   ],
   "packages": [
     {
-      "name": "karteikarten_prototyp_03",
+      "name": "karteikarten_prototyp_04",
       "version": "1.0.0+1",
       "dependencies": [
         "cupertino_icons",

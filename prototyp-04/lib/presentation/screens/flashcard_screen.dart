@@ -4,6 +4,13 @@ import 'package:flutter/material.dart';
 import '../../services/flashcard_service.dart';
 import 'stats_screen.dart';
 
+/// Must match paperwidth:paperheight in
+/// flashcards_source/praeambel_app_standalone.tex (currently 105mm:148mm
+/// - ISO A6). If those dimensions change, update this too, or the
+/// .webp images will letterbox/pillarbox instead of filling the card
+/// edge-to-edge.
+const double kCardAspectRatio = 105 / 148;
+
 class FlashcardScreen extends StatefulWidget {
   final String category;
 
@@ -199,76 +206,81 @@ class _FlashcardScreenState extends State<FlashcardScreen>
             ),
             const SizedBox(height: 16),
             Expanded(
-              child: AnimatedBuilder(
-                animation: _animation,
-                builder: (context, child) {
-                  final angle = _animation.value * pi;
-                  final showBack = angle > pi / 2;
+              child: Center(
+                child: AspectRatio(
+                  aspectRatio: kCardAspectRatio,
+                  child: AnimatedBuilder(
+                    animation: _animation,
+                    builder: (context, child) {
+                      final angle = _animation.value * pi;
+                      final showBack = angle > pi / 2;
 
-                  final cardDecoration = BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(20),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.08),
-                        blurRadius: 12,
-                        offset: const Offset(0, 4),
-                      ),
-                    ],
-                  );
+                      final cardDecoration = BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.08),
+                            blurRadius: 12,
+                            offset: const Offset(0, 4),
+                          ),
+                        ],
+                      );
 
-                  Matrix4 perspective() =>
-                      Matrix4.identity()..setEntry(3, 2, 0.001);
+                      Matrix4 perspective() =>
+                          Matrix4.identity()..setEntry(3, 2, 0.001);
 
-                  return Stack(
-                    children: [
-                      Visibility(
-                        visible: !showBack,
-                        maintainSize: true,
-                        maintainAnimation: true,
-                        maintainState: true,
-                        child: GestureDetector(
-                          onTap: _flipCard,
-                          child: Transform(
-                            transform: perspective()..rotateY(angle),
-                            alignment: Alignment.center,
-                            child: Container(
-                              decoration: cardDecoration,
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(20),
-                                child: _CardImage(
-                                  assetPath: studyCard.card.frontImage,
+                      return Stack(
+                        children: [
+                          Visibility(
+                            visible: !showBack,
+                            maintainSize: true,
+                            maintainAnimation: true,
+                            maintainState: true,
+                            child: GestureDetector(
+                              onTap: _flipCard,
+                              child: Transform(
+                                transform: perspective()..rotateY(angle),
+                                alignment: Alignment.center,
+                                child: Container(
+                                  decoration: cardDecoration,
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20),
+                                    child: _CardImage(
+                                      assetPath: studyCard.card.frontImage,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ),
-                      Visibility(
-                        visible: showBack,
-                        maintainSize: true,
-                        maintainAnimation: true,
-                        maintainState: true,
-                        child: GestureDetector(
-                          onTap: _flipCard,
-                          child: Transform(
-                            transform: perspective()..rotateY(angle - pi),
-                            alignment: Alignment.center,
-                            child: Container(
-                              decoration: cardDecoration,
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(20),
-                                child: _CardImage(
-                                  assetPath: studyCard.card.backImage,
+                          Visibility(
+                            visible: showBack,
+                            maintainSize: true,
+                            maintainAnimation: true,
+                            maintainState: true,
+                            child: GestureDetector(
+                              onTap: _flipCard,
+                              child: Transform(
+                                transform: perspective()..rotateY(angle - pi),
+                                alignment: Alignment.center,
+                                child: Container(
+                                  decoration: cardDecoration,
+                                  child: ClipRRect(
+                                    borderRadius: BorderRadius.circular(20),
+                                    child: _CardImage(
+                                      assetPath: studyCard.card.backImage,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ),
-                    ],
-                  );
-                },
+                        ],
+                      );
+                    },
+                  ),
+                ),
               ),
             ),
             const SizedBox(height: 16),

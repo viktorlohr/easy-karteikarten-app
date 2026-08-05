@@ -1,26 +1,776 @@
 [
   {
-    "id": "analysis_001",
+    "id": "analysis_fc65402a571405ca",
     "category": "Analysis",
-    "front": "assets/flashcards/analysis/analysis_001_front.webp",
-    "back": "assets/flashcards/analysis/analysis_001_back.webp"
+    "front": "assets/flashcards/analysis/analysis_fc65402a571405ca_front.webp",
+    "back": "assets/flashcards/analysis/analysis_fc65402a571405ca_back.webp"
   },
   {
-    "id": "analysis_002",
+    "id": "analysis_b4005ddc2982533a",
     "category": "Analysis",
-    "front": "assets/flashcards/analysis/analysis_002_front.webp",
-    "back": "assets/flashcards/analysis/analysis_002_back.webp"
+    "front": "assets/flashcards/analysis/analysis_b4005ddc2982533a_front.webp",
+    "back": "assets/flashcards/analysis/analysis_b4005ddc2982533a_back.webp"
   },
   {
-    "id": "geometrie_001",
-    "category": "Geometrie",
-    "front": "assets/flashcards/geometrie/geometrie_001_front.webp",
-    "back": "assets/flashcards/geometrie/geometrie_001_back.webp"
+    "id": "analysis_6b3814e8b5354c9a",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_6b3814e8b5354c9a_front.webp",
+    "back": "assets/flashcards/analysis/analysis_6b3814e8b5354c9a_back.webp"
   },
   {
-    "id": "stochastik_001",
+    "id": "analysis_f2187b8acad1044a",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_f2187b8acad1044a_front.webp",
+    "back": "assets/flashcards/analysis/analysis_f2187b8acad1044a_back.webp"
+  },
+  {
+    "id": "analysis_d4a3188f29217167",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_d4a3188f29217167_front.webp",
+    "back": "assets/flashcards/analysis/analysis_d4a3188f29217167_back.webp"
+  },
+  {
+    "id": "analysis_aa76ba78dbfe99d5",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_aa76ba78dbfe99d5_front.webp",
+    "back": "assets/flashcards/analysis/analysis_aa76ba78dbfe99d5_back.webp"
+  },
+  {
+    "id": "analysis_3f09b15c593631b7",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_3f09b15c593631b7_front.webp",
+    "back": "assets/flashcards/analysis/analysis_3f09b15c593631b7_back.webp"
+  },
+  {
+    "id": "analysis_139914b2b420e0f1",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_139914b2b420e0f1_front.webp",
+    "back": "assets/flashcards/analysis/analysis_139914b2b420e0f1_back.webp"
+  },
+  {
+    "id": "analysis_8ce58af6bd2bab08",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_8ce58af6bd2bab08_front.webp",
+    "back": "assets/flashcards/analysis/analysis_8ce58af6bd2bab08_back.webp"
+  },
+  {
+    "id": "analysis_68cd8af32d253f50",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_68cd8af32d253f50_front.webp",
+    "back": "assets/flashcards/analysis/analysis_68cd8af32d253f50_back.webp"
+  },
+  {
+    "id": "analysis_0c7351457f9869be",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_0c7351457f9869be_front.webp",
+    "back": "assets/flashcards/analysis/analysis_0c7351457f9869be_back.webp"
+  },
+  {
+    "id": "analysis_5f2261f866d4cfe7",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_5f2261f866d4cfe7_front.webp",
+    "back": "assets/flashcards/analysis/analysis_5f2261f866d4cfe7_back.webp"
+  },
+  {
+    "id": "analysis_88d3d2af98905228",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_88d3d2af98905228_front.webp",
+    "back": "assets/flashcards/analysis/analysis_88d3d2af98905228_back.webp"
+  },
+  {
+    "id": "analysis_df55a03e078eef94",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_df55a03e078eef94_front.webp",
+    "back": "assets/flashcards/analysis/analysis_df55a03e078eef94_back.webp"
+  },
+  {
+    "id": "analysis_c83e632d6e819731",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_c83e632d6e819731_front.webp",
+    "back": "assets/flashcards/analysis/analysis_c83e632d6e819731_back.webp"
+  },
+  {
+    "id": "analysis_c7fed848ca9f3c1e",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_c7fed848ca9f3c1e_front.webp",
+    "back": "assets/flashcards/analysis/analysis_c7fed848ca9f3c1e_back.webp"
+  },
+  {
+    "id": "analysis_ba873bf69e5cac23",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_ba873bf69e5cac23_front.webp",
+    "back": "assets/flashcards/analysis/analysis_ba873bf69e5cac23_back.webp"
+  },
+  {
+    "id": "analysis_cfb9062f49409a74",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_cfb9062f49409a74_front.webp",
+    "back": "assets/flashcards/analysis/analysis_cfb9062f49409a74_back.webp"
+  },
+  {
+    "id": "analysis_f6df06744ca8c84b",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_f6df06744ca8c84b_front.webp",
+    "back": "assets/flashcards/analysis/analysis_f6df06744ca8c84b_back.webp"
+  },
+  {
+    "id": "analysis_c6737595e8550269",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_c6737595e8550269_front.webp",
+    "back": "assets/flashcards/analysis/analysis_c6737595e8550269_back.webp"
+  },
+  {
+    "id": "analysis_f970efb1d7a58128",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_f970efb1d7a58128_front.webp",
+    "back": "assets/flashcards/analysis/analysis_f970efb1d7a58128_back.webp"
+  },
+  {
+    "id": "analysis_dc1d9acb92d05543",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_dc1d9acb92d05543_front.webp",
+    "back": "assets/flashcards/analysis/analysis_dc1d9acb92d05543_back.webp"
+  },
+  {
+    "id": "analysis_d4d977ea5580398f",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_d4d977ea5580398f_front.webp",
+    "back": "assets/flashcards/analysis/analysis_d4d977ea5580398f_back.webp"
+  },
+  {
+    "id": "analysis_9512a64cf25e764c",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_9512a64cf25e764c_front.webp",
+    "back": "assets/flashcards/analysis/analysis_9512a64cf25e764c_back.webp"
+  },
+  {
+    "id": "analysis_7abb5e0a77686a76",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_7abb5e0a77686a76_front.webp",
+    "back": "assets/flashcards/analysis/analysis_7abb5e0a77686a76_back.webp"
+  },
+  {
+    "id": "analysis_2b4eed8044df8d01",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_2b4eed8044df8d01_front.webp",
+    "back": "assets/flashcards/analysis/analysis_2b4eed8044df8d01_back.webp"
+  },
+  {
+    "id": "analysis_99fb8a995c4977ba",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_99fb8a995c4977ba_front.webp",
+    "back": "assets/flashcards/analysis/analysis_99fb8a995c4977ba_back.webp"
+  },
+  {
+    "id": "analysis_3a41cbe9d4f2d685",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_3a41cbe9d4f2d685_front.webp",
+    "back": "assets/flashcards/analysis/analysis_3a41cbe9d4f2d685_back.webp"
+  },
+  {
+    "id": "analysis_807fb7c28a3c256f",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_807fb7c28a3c256f_front.webp",
+    "back": "assets/flashcards/analysis/analysis_807fb7c28a3c256f_back.webp"
+  },
+  {
+    "id": "analysis_35cd74b924f48273",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_35cd74b924f48273_front.webp",
+    "back": "assets/flashcards/analysis/analysis_35cd74b924f48273_back.webp"
+  },
+  {
+    "id": "analysis_7fbbbaa81d690cfc",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_7fbbbaa81d690cfc_front.webp",
+    "back": "assets/flashcards/analysis/analysis_7fbbbaa81d690cfc_back.webp"
+  },
+  {
+    "id": "analysis_c82a71ff88d525fc",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_c82a71ff88d525fc_front.webp",
+    "back": "assets/flashcards/analysis/analysis_c82a71ff88d525fc_back.webp"
+  },
+  {
+    "id": "analysis_77dc1f63907ae5a9",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_77dc1f63907ae5a9_front.webp",
+    "back": "assets/flashcards/analysis/analysis_77dc1f63907ae5a9_back.webp"
+  },
+  {
+    "id": "analysis_beef2308b9ea5523",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_beef2308b9ea5523_front.webp",
+    "back": "assets/flashcards/analysis/analysis_beef2308b9ea5523_back.webp"
+  },
+  {
+    "id": "analysis_587b5853283ac42c",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_587b5853283ac42c_front.webp",
+    "back": "assets/flashcards/analysis/analysis_587b5853283ac42c_back.webp"
+  },
+  {
+    "id": "analysis_f82452db03b98151",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_f82452db03b98151_front.webp",
+    "back": "assets/flashcards/analysis/analysis_f82452db03b98151_back.webp"
+  },
+  {
+    "id": "analysis_2e5437fb6023fbd3",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_2e5437fb6023fbd3_front.webp",
+    "back": "assets/flashcards/analysis/analysis_2e5437fb6023fbd3_back.webp"
+  },
+  {
+    "id": "analysis_3dd618a21c01b52c",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_3dd618a21c01b52c_front.webp",
+    "back": "assets/flashcards/analysis/analysis_3dd618a21c01b52c_back.webp"
+  },
+  {
+    "id": "analysis_7bf1432b996e567b",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_7bf1432b996e567b_front.webp",
+    "back": "assets/flashcards/analysis/analysis_7bf1432b996e567b_back.webp"
+  },
+  {
+    "id": "analysis_b5ea2cb28ba96995",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_b5ea2cb28ba96995_front.webp",
+    "back": "assets/flashcards/analysis/analysis_b5ea2cb28ba96995_back.webp"
+  },
+  {
+    "id": "analysis_854b889670a27199",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_854b889670a27199_front.webp",
+    "back": "assets/flashcards/analysis/analysis_854b889670a27199_back.webp"
+  },
+  {
+    "id": "analysis_8e7456f8d3704fc7",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_8e7456f8d3704fc7_front.webp",
+    "back": "assets/flashcards/analysis/analysis_8e7456f8d3704fc7_back.webp"
+  },
+  {
+    "id": "analysis_902e3bb7999939c1",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_902e3bb7999939c1_front.webp",
+    "back": "assets/flashcards/analysis/analysis_902e3bb7999939c1_back.webp"
+  },
+  {
+    "id": "analysis_3202dd7ea4d12db7",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_3202dd7ea4d12db7_front.webp",
+    "back": "assets/flashcards/analysis/analysis_3202dd7ea4d12db7_back.webp"
+  },
+  {
+    "id": "analysis_d08d497c8e6f5761",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_d08d497c8e6f5761_front.webp",
+    "back": "assets/flashcards/analysis/analysis_d08d497c8e6f5761_back.webp"
+  },
+  {
+    "id": "analysis_451975431905ae20",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_451975431905ae20_front.webp",
+    "back": "assets/flashcards/analysis/analysis_451975431905ae20_back.webp"
+  },
+  {
+    "id": "analysis_789ea0641e5343eb",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_789ea0641e5343eb_front.webp",
+    "back": "assets/flashcards/analysis/analysis_789ea0641e5343eb_back.webp"
+  },
+  {
+    "id": "analysis_286f1db63e30a728",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_286f1db63e30a728_front.webp",
+    "back": "assets/flashcards/analysis/analysis_286f1db63e30a728_back.webp"
+  },
+  {
+    "id": "analysis_74914970be0f836f",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_74914970be0f836f_front.webp",
+    "back": "assets/flashcards/analysis/analysis_74914970be0f836f_back.webp"
+  },
+  {
+    "id": "stochastik_b634cdfad7f782bd",
     "category": "Stochastik",
-    "front": "assets/flashcards/stochastik/stochastik_001_front.webp",
-    "back": "assets/flashcards/stochastik/stochastik_001_back.webp"
+    "front": "assets/flashcards/stochastik/stochastik_b634cdfad7f782bd_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_b634cdfad7f782bd_back.webp"
+  },
+  {
+    "id": "stochastik_8a836d81e5f3828f",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_8a836d81e5f3828f_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_8a836d81e5f3828f_back.webp"
+  },
+  {
+    "id": "stochastik_26a3a02b8922a5da",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_26a3a02b8922a5da_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_26a3a02b8922a5da_back.webp"
+  },
+  {
+    "id": "stochastik_00d4f71aec588539",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_00d4f71aec588539_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_00d4f71aec588539_back.webp"
+  },
+  {
+    "id": "stochastik_59cf915ac34d59fc",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_59cf915ac34d59fc_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_59cf915ac34d59fc_back.webp"
+  },
+  {
+    "id": "stochastik_0ba1155aa5095f86",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_0ba1155aa5095f86_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_0ba1155aa5095f86_back.webp"
+  },
+  {
+    "id": "stochastik_1ab3d969ab8d9fe0",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_1ab3d969ab8d9fe0_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_1ab3d969ab8d9fe0_back.webp"
+  },
+  {
+    "id": "stochastik_f3b2e16953ec4d81",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_f3b2e16953ec4d81_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_f3b2e16953ec4d81_back.webp"
+  },
+  {
+    "id": "stochastik_e27971481a4fa8a2",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_e27971481a4fa8a2_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_e27971481a4fa8a2_back.webp"
+  },
+  {
+    "id": "stochastik_0c663cb0f97f592b",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_0c663cb0f97f592b_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_0c663cb0f97f592b_back.webp"
+  },
+  {
+    "id": "stochastik_c21c234643569ed9",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_c21c234643569ed9_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_c21c234643569ed9_back.webp"
+  },
+  {
+    "id": "stochastik_d588be2f1c5cc2c8",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_d588be2f1c5cc2c8_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_d588be2f1c5cc2c8_back.webp"
+  },
+  {
+    "id": "stochastik_660dfbeada99c168",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_660dfbeada99c168_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_660dfbeada99c168_back.webp"
+  },
+  {
+    "id": "stochastik_313208b92edae6c7",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_313208b92edae6c7_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_313208b92edae6c7_back.webp"
+  },
+  {
+    "id": "stochastik_602fe45e474979a7",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_602fe45e474979a7_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_602fe45e474979a7_back.webp"
+  },
+  {
+    "id": "stochastik_9f8815c65f788a95",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_9f8815c65f788a95_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_9f8815c65f788a95_back.webp"
+  },
+  {
+    "id": "stochastik_f72b454bac5edf6b",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_f72b454bac5edf6b_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_f72b454bac5edf6b_back.webp"
+  },
+  {
+    "id": "stochastik_bd26612dbd219ca0",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_bd26612dbd219ca0_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_bd26612dbd219ca0_back.webp"
+  },
+  {
+    "id": "stochastik_7f53ac98283b303c",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_7f53ac98283b303c_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_7f53ac98283b303c_back.webp"
+  },
+  {
+    "id": "stochastik_6930d715ddae6dd3",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_6930d715ddae6dd3_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_6930d715ddae6dd3_back.webp"
+  },
+  {
+    "id": "stochastik_5b3ce86c20a3468b",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_5b3ce86c20a3468b_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_5b3ce86c20a3468b_back.webp"
+  },
+  {
+    "id": "stochastik_a97c975b55443f84",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_a97c975b55443f84_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_a97c975b55443f84_back.webp"
+  },
+  {
+    "id": "stochastik_384424f357720847",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_384424f357720847_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_384424f357720847_back.webp"
+  },
+  {
+    "id": "stochastik_0d45bb542be590bf",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_0d45bb542be590bf_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_0d45bb542be590bf_back.webp"
+  },
+  {
+    "id": "stochastik_edfb628abc91071b",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_edfb628abc91071b_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_edfb628abc91071b_back.webp"
+  },
+  {
+    "id": "stochastik_fb0dbcb0cf620cd1",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_fb0dbcb0cf620cd1_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_fb0dbcb0cf620cd1_back.webp"
+  },
+  {
+    "id": "stochastik_a140f2d50f5dbb7e",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_a140f2d50f5dbb7e_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_a140f2d50f5dbb7e_back.webp"
+  },
+  {
+    "id": "stochastik_d1bcb6450f8dccf1",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_d1bcb6450f8dccf1_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_d1bcb6450f8dccf1_back.webp"
+  },
+  {
+    "id": "stochastik_853ffd5b02befd1e",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_853ffd5b02befd1e_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_853ffd5b02befd1e_back.webp"
+  },
+  {
+    "id": "stochastik_cbcca45013625cf0",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_cbcca45013625cf0_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_cbcca45013625cf0_back.webp"
+  },
+  {
+    "id": "stochastik_2aef6d5b4bd5ab50",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_2aef6d5b4bd5ab50_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_2aef6d5b4bd5ab50_back.webp"
+  },
+  {
+    "id": "stochastik_73ed5a8b9a4ed93d",
+    "category": "Stochastik",
+    "front": "assets/flashcards/stochastik/stochastik_73ed5a8b9a4ed93d_front.webp",
+    "back": "assets/flashcards/stochastik/stochastik_73ed5a8b9a4ed93d_back.webp"
+  },
+  {
+    "id": "geometrie_eb5c533556a550c6",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_eb5c533556a550c6_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_eb5c533556a550c6_back.webp"
+  },
+  {
+    "id": "geometrie_c2b06872a6f497db",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_c2b06872a6f497db_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_c2b06872a6f497db_back.webp"
+  },
+  {
+    "id": "geometrie_668a5a4f2bf4c8a9",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_668a5a4f2bf4c8a9_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_668a5a4f2bf4c8a9_back.webp"
+  },
+  {
+    "id": "geometrie_d8ba028546606678",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_d8ba028546606678_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_d8ba028546606678_back.webp"
+  },
+  {
+    "id": "geometrie_c6123082ada8dcf8",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_c6123082ada8dcf8_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_c6123082ada8dcf8_back.webp"
+  },
+  {
+    "id": "geometrie_6d6ace083452943e",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_6d6ace083452943e_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_6d6ace083452943e_back.webp"
+  },
+  {
+    "id": "geometrie_024eef64a2e4696f",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_024eef64a2e4696f_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_024eef64a2e4696f_back.webp"
+  },
+  {
+    "id": "geometrie_388cb2632860fc0c",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_388cb2632860fc0c_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_388cb2632860fc0c_back.webp"
+  },
+  {
+    "id": "geometrie_7310f43942da4e6e",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_7310f43942da4e6e_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_7310f43942da4e6e_back.webp"
+  },
+  {
+    "id": "geometrie_0f902e8a2e9c0f4f",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_0f902e8a2e9c0f4f_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_0f902e8a2e9c0f4f_back.webp"
+  },
+  {
+    "id": "geometrie_7484b363724a1364",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_7484b363724a1364_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_7484b363724a1364_back.webp"
+  },
+  {
+    "id": "geometrie_d24d3150c22699b7",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_d24d3150c22699b7_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_d24d3150c22699b7_back.webp"
+  },
+  {
+    "id": "geometrie_4c764e7ae797093d",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_4c764e7ae797093d_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_4c764e7ae797093d_back.webp"
+  },
+  {
+    "id": "geometrie_07ee45892864b57b",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_07ee45892864b57b_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_07ee45892864b57b_back.webp"
+  },
+  {
+    "id": "geometrie_3aefceb67994bfd1",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_3aefceb67994bfd1_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_3aefceb67994bfd1_back.webp"
+  },
+  {
+    "id": "geometrie_932874142783b1db",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_932874142783b1db_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_932874142783b1db_back.webp"
+  },
+  {
+    "id": "geometrie_ed54c25db5612423",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_ed54c25db5612423_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_ed54c25db5612423_back.webp"
+  },
+  {
+    "id": "geometrie_3311d00ea82777c1",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_3311d00ea82777c1_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_3311d00ea82777c1_back.webp"
+  },
+  {
+    "id": "geometrie_233d91b4caef1d21",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_233d91b4caef1d21_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_233d91b4caef1d21_back.webp"
+  },
+  {
+    "id": "geometrie_f2c5371f20ecddad",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_f2c5371f20ecddad_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_f2c5371f20ecddad_back.webp"
+  },
+  {
+    "id": "geometrie_b9669a4da9e9877f",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_b9669a4da9e9877f_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_b9669a4da9e9877f_back.webp"
+  },
+  {
+    "id": "geometrie_297df5c25d426896",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_297df5c25d426896_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_297df5c25d426896_back.webp"
+  },
+  {
+    "id": "geometrie_5f48976b786163c2",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_5f48976b786163c2_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_5f48976b786163c2_back.webp"
+  },
+  {
+    "id": "geometrie_0e172b702a6036c9",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_0e172b702a6036c9_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_0e172b702a6036c9_back.webp"
+  },
+  {
+    "id": "geometrie_7b8ccfa4c67d06e6",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_7b8ccfa4c67d06e6_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_7b8ccfa4c67d06e6_back.webp"
+  },
+  {
+    "id": "geometrie_a6d9f9913d798a5b",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_a6d9f9913d798a5b_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_a6d9f9913d798a5b_back.webp"
+  },
+  {
+    "id": "geometrie_e9690d421f1a94f4",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_e9690d421f1a94f4_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_e9690d421f1a94f4_back.webp"
+  },
+  {
+    "id": "geometrie_f30e36aac11c6a56",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_f30e36aac11c6a56_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_f30e36aac11c6a56_back.webp"
+  },
+  {
+    "id": "geometrie_bfc1dd95a49bc387",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_bfc1dd95a49bc387_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_bfc1dd95a49bc387_back.webp"
+  },
+  {
+    "id": "geometrie_2ab7815d9c8e6b96",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_2ab7815d9c8e6b96_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_2ab7815d9c8e6b96_back.webp"
+  },
+  {
+    "id": "geometrie_c01dc38f220c239a",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_c01dc38f220c239a_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_c01dc38f220c239a_back.webp"
+  },
+  {
+    "id": "geometrie_6f054b74b523e6c0",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_6f054b74b523e6c0_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_6f054b74b523e6c0_back.webp"
+  },
+  {
+    "id": "geometrie_572b8afb93c74769",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_572b8afb93c74769_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_572b8afb93c74769_back.webp"
+  },
+  {
+    "id": "geometrie_524d0fb5fd914752",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_524d0fb5fd914752_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_524d0fb5fd914752_back.webp"
+  },
+  {
+    "id": "geometrie_f01c6385799a0e41",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_f01c6385799a0e41_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_f01c6385799a0e41_back.webp"
+  },
+  {
+    "id": "geometrie_3a5ab1c11778f621",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_3a5ab1c11778f621_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_3a5ab1c11778f621_back.webp"
+  },
+  {
+    "id": "geometrie_1e8d79cdc9ab50d6",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_1e8d79cdc9ab50d6_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_1e8d79cdc9ab50d6_back.webp"
+  },
+  {
+    "id": "geometrie_40313b3ebbf03eb3",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_40313b3ebbf03eb3_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_40313b3ebbf03eb3_back.webp"
+  },
+  {
+    "id": "geometrie_080ac6e3fbc2fa88",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_080ac6e3fbc2fa88_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_080ac6e3fbc2fa88_back.webp"
+  },
+  {
+    "id": "geometrie_5819f6261a3d22d8",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_5819f6261a3d22d8_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_5819f6261a3d22d8_back.webp"
+  },
+  {
+    "id": "geometrie_65b17f62831e9384",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_65b17f62831e9384_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_65b17f62831e9384_back.webp"
+  },
+  {
+    "id": "geometrie_77b9d6b1af5cd220",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_77b9d6b1af5cd220_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_77b9d6b1af5cd220_back.webp"
+  },
+  {
+    "id": "geometrie_328b9b71ff48f5e8",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_328b9b71ff48f5e8_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_328b9b71ff48f5e8_back.webp"
+  },
+  {
+    "id": "geometrie_97b9e24f64698caf",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_97b9e24f64698caf_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_97b9e24f64698caf_back.webp"
+  },
+  {
+    "id": "geometrie_ed4d26ebbfc4415d",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_ed4d26ebbfc4415d_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_ed4d26ebbfc4415d_back.webp"
+  },
+  {
+    "id": "geometrie_e577cf3cb70cba0d",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_e577cf3cb70cba0d_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_e577cf3cb70cba0d_back.webp"
+  },
+  {
+    "id": "geometrie_0fa26a83985374bb",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_0fa26a83985374bb_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_0fa26a83985374bb_back.webp"
+  },
+  {
+    "id": "geometrie_b956069f942e912f",
+    "category": "Geometrie",
+    "front": "assets/flashcards/geometrie/geometrie_b956069f942e912f_front.webp",
+    "back": "assets/flashcards/geometrie/geometrie_b956069f942e912f_back.webp"
   }
 ]

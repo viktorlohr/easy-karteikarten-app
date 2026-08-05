@@ -8,6 +8,8 @@ TARGET_PATHS = [
     Path("analysis_options.yaml"),
     Path("lib"),
     Path("test"),
+    Path("tools"),
+    Path("flashcards_source"),
 ]
 
 # File extensions allowed

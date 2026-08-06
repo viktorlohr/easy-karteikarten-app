@@ -42,6 +42,7 @@ Requirements (all external, not pip-installable):
 Usage:
 
     cd flashcards_source && python3 build_flashcards.py
+    cd flashcards_source && python3 build_flashcards.py --force
 
 Fixed layout, relative to this file's own location (no flags - the
 project is always laid out this way):
@@ -62,6 +63,7 @@ project is always laid out this way):
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import re
@@ -232,6 +234,17 @@ def extract_page_to_webp(pdf_path: Path, page: int, out_path: Path) -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Build flashcards webp assets and manifest from compiled TeX PDF."
+    )
+    parser.add_argument(
+        "-f",
+        "--force",
+        action="store_true",
+        help="Force re-extraction of all flashcards by ignoring and resetting cache and manifest.",
+    )
+    args = parser.parse_args()
+
     answer = input("Did you compile all_flashcards.tex? (y/n) ").strip().lower()
     if answer != "y":
         print("Compile all_flashcards.tex first, then re-run this script.")
@@ -272,11 +285,21 @@ def main() -> int:
     print(f"Page count check OK: {actual_pages} pages for {len(cards)} cards.")
 
     cache_path = OUT_ASSETS / ".build_cache.json"
-    cache = (
-        json.loads(cache_path.read_text(encoding="utf-8"))
-        if cache_path.exists()
-        else {}
-    )
+    manifest_path = OUT_ASSETS / "flashcards_manifest.json"
+
+    if args.force:
+        print("Force mode enabled: resetting cache and manifest files...")
+        if cache_path.exists():
+            cache_path.unlink()
+        if manifest_path.exists():
+            manifest_path.unlink()
+        cache = {}
+    else:
+        cache = (
+            json.loads(cache_path.read_text(encoding="utf-8"))
+            if cache_path.exists()
+            else {}
+        )
 
     def save_cache() -> None:
         cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -285,6 +308,13 @@ def main() -> int:
         )
 
     manifest: list[dict] = []
+
+    def save_manifest() -> None:
+        manifest_path.parent.mkdir(parents=True, exist_ok=True)
+        manifest_path.write_text(
+            json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+
     extracted_count = 0
 
     for i, card in enumerate(cards):
@@ -312,6 +342,8 @@ def main() -> int:
                 "back": f"assets/flashcards/{card.category.lower()}/{card.card_id}_back.webp",
             }
         )
+        # Write manifest to disk immediately on every step
+        save_manifest()
 
         content_hash = card.content_hash(preamble_text)
         up_to_date = (
@@ -335,11 +367,6 @@ def main() -> int:
     live_ids = {c.card_id for c in cards}
     cache = {k: v for k, v in cache.items() if k in live_ids}
     save_cache()
-
-    manifest_path = OUT_ASSETS / "flashcards_manifest.json"
-    manifest_path.write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
 
     print(
         f"Extracted {extracted_count} card(s), {len(cards) - extracted_count} unchanged."

@@ -1,1 +1,68 @@
-{}
+[
+  {
+    "id": "analysis_8c15a898655e6e57",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_8c15a898655e6e57_front.webp",
+    "back": "assets/flashcards/analysis/analysis_8c15a898655e6e57_back.webp"
+  },
+  {
+    "id": "analysis_6096ffb84a2006b3",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_6096ffb84a2006b3_front.webp",
+    "back": "assets/flashcards/analysis/analysis_6096ffb84a2006b3_back.webp"
+  },
+  {
+    "id": "analysis_b8e155849ae9ecea",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_b8e155849ae9ecea_front.webp",
+    "back": "assets/flashcards/analysis/analysis_b8e155849ae9ecea_back.webp"
+  },
+  {
+    "id": "analysis_75927e3e3a8f7a9b",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_75927e3e3a8f7a9b_front.webp",
+    "back": "assets/flashcards/analysis/analysis_75927e3e3a8f7a9b_back.webp"
+  },
+  {
+    "id": "analysis_fc419357ceff934e",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_fc419357ceff934e_front.webp",
+    "back": "assets/flashcards/analysis/analysis_fc419357ceff934e_back.webp"
+  },
+  {
+    "id": "analysis_81dad4827f4390a9",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_81dad4827f4390a9_front.webp",
+    "back": "assets/flashcards/analysis/analysis_81dad4827f4390a9_back.webp"
+  },
+  {
+    "id": "analysis_7009746e15eb80e6",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_7009746e15eb80e6_front.webp",
+    "back": "assets/flashcards/analysis/analysis_7009746e15eb80e6_back.webp"
+  },
+  {
+    "id": "analysis_b6d130ead4268873",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_b6d130ead4268873_front.webp",
+    "back": "assets/flashcards/analysis/analysis_b6d130ead4268873_back.webp"
+  },
+  {
+    "id": "analysis_b6a38390f5f2a01f",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_b6a38390f5f2a01f_front.webp",
+    "back": "assets/flashcards/analysis/analysis_b6a38390f5f2a01f_back.webp"
+  },
+  {
+    "id": "analysis_0196b0753e92f512",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_0196b0753e92f512_front.webp",
+    "back": "assets/flashcards/analysis/analysis_0196b0753e92f512_back.webp"
+  },
+  {
+    "id": "analysis_1e65545f5bf04bf3",
+    "category": "Analysis",
+    "front": "assets/flashcards/analysis/analysis_1e65545f5bf04bf3_front.webp",
+    "back": "assets/flashcards/analysis/analysis_1e65545f5bf04bf3_back.webp"
+  }
+]

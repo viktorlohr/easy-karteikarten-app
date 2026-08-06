@@ -215,9 +215,31 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                       final angle = _animation.value * pi;
                       final showBack = angle > pi / 2;
 
-                      final cardDecoration = BoxDecoration(
+                      // Background decoration for the FRONT of the card
+                      final frontCardDecoration = BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20),
+                        image: const DecorationImage(
+                          image: AssetImage('assets/images/card_front_bg.png'),
+                          fit: BoxFit.cover,
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: 0.08),
+                            blurRadius: 12,
+                            offset: const Offset(0, 4),
+                          ),
+                        ],
+                      );
+
+                      // Background decoration for the BACK of the card
+                      final backCardDecoration = BoxDecoration(
+                        color: const Color(0xFFF0F4F8),
+                        borderRadius: BorderRadius.circular(20),
+                        image: const DecorationImage(
+                          image: AssetImage('assets/images/card_back_bg.png'),
+                          fit: BoxFit.cover,
+                        ),
                         boxShadow: [
                           BoxShadow(
                             color: Colors.black.withValues(alpha: 0.08),
@@ -243,7 +265,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                                 transform: perspective()..rotateY(angle),
                                 alignment: Alignment.center,
                                 child: Container(
-                                  decoration: cardDecoration,
+                                  decoration: frontCardDecoration,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(20),
                                     child: _CardImage(
@@ -265,7 +287,7 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                                 transform: perspective()..rotateY(angle - pi),
                                 alignment: Alignment.center,
                                 child: Container(
-                                  decoration: cardDecoration,
+                                  decoration: backCardDecoration,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(20),
                                     child: _CardImage(

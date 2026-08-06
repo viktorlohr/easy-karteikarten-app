@@ -1,0 +1,1 @@
+ /Users/viktorlohr/dev/easy-karteikarten-app/prototyp_latex_pipeline/.dart_tool/flutter_build/835ce8b21ae514d2e10a282e20ccd2dd/dart_build_result.json: 

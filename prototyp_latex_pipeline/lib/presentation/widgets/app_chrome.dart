@@ -10,7 +10,7 @@ class GlobalFooterWrapper extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Padding(padding: const EdgeInsets.only(bottom: 40), child: child),
+        Padding(padding: const EdgeInsets.only(bottom: 0), child: child),
         Align(
           alignment: Alignment.bottomCenter,
           child: GestureDetector(
@@ -21,12 +21,12 @@ class GlobalFooterWrapper extends StatelessWidget {
               );
             },
             child: Container(
-              margin: const EdgeInsets.only(bottom: 12),
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-              decoration: BoxDecoration(
-                color: Colors.black.withValues(alpha: 0.5),
-                borderRadius: BorderRadius.circular(8),
-              ),
+              margin: const EdgeInsets.only(bottom: 2),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 2),
+              // decoration: BoxDecoration(
+              //   color: const Color.fromARGB(255, 214, 210, 210).withValues(alpha: 0.5),
+              //   borderRadius: BorderRadius.circular(8),
+              // ),
               child: const Text(
                 'Impressum | Datenschutz',
                 style: TextStyle(

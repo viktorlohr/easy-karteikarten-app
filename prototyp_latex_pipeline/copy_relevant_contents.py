@@ -7,9 +7,6 @@ TARGET_PATHS = [
     Path("pubspec.yaml"),
     Path("analysis_options.yaml"),
     Path("lib"),
-    Path("test"),
-    Path("tools"),
-    Path("flashcards_source"),
 ]
 
 # File extensions allowed

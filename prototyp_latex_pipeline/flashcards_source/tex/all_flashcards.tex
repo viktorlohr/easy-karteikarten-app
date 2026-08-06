@@ -336,7 +336,8 @@
 		\item d: Verschiebung um d in y-Richtung
 							
 	\end{itemize}
-	\textbf{Beachte:} Gilt für alle Funktionen.\\
+
+\textbf{Beachte:} Gilt für alle Funktionen.\\
 	 Zuerst Streckungen dann Verschiebungen!
 \end{antwort}
 \begin{frage}
@@ -620,21 +621,20 @@
 	Fläche zwischen zwei Funktionen $f(x)$ und $g(x)$
 \end{frage}
 \begin{antwort}
-		\begin{enumerate} 
-			\item Schnittstellen berechnen: $f(x)=g(x)$
+			Erst berechnen wir die \textbf{Schnittstellen} mit dem Ansatz $f(x)=g(x)$
+			und erhalten dadurch die Integrationsgrenzen $x_{\text{klein}}$ und $x_{\text{groß}}$.
+			Die Fläche ist dann
+	
 			
-			Man erhält die Integrationsgrenzen $x_{\text{klein}}$ und $x_{\text{groß}}$.
-			\item Fläche berechnen: 
-			
-				$A=\abs{\displaystyle\int\limits_{x_{\text{klein}}}^{x_{\text{groß}}} \! (f(x)-g(x)) \, \mathrm{d}x}$
+				\[A=\abs{\displaystyle\int\limits_{x_{\text{klein}}}^{x_{\text{groß}}} \! (f(x)-g(x)) \, \mathrm{d}x}\]
 			
 			\textbf{Beachte:} Wenn 3 Schnittstellen existieren, Integral aufteilen:
-			
-			\begin{align*}
-				&\abs{\displaystyle\int\limits_{x_{\text{klein}}}^{x_{\text{mittel}}} \! (f(x)-g(x)) \, \mathrm{d}x}\\
-				+&\abs{\displaystyle\int\limits_{x_{\text{mittel}}}^{x_{\text{groß}}} \! (f(x)-g(x)) \, \mathrm{d}x}
-			\end{align*}
-		\end{enumerate} 
+			\small
+			\begin{equation*}
+				\abs{\displaystyle\int\limits_{x_{\text{klein}}}^{x_{\text{mittel}}} \! (f(x)-g(x)) \, \mathrm{d}x}
+				+\abs{\displaystyle\int\limits_{x_{\text{mittel}}}^{x_{\text{groß}}} \! (f(x)-g(x)) \, \mathrm{d}x}
+			\end{equation*}
+		
 \end{antwort}
 \begin{frage}
 	Integrale im Sachzusammenhang (d.h. bei Anwendungsaufgaben) deuten

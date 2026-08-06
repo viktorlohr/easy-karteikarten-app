@@ -1,0 +1,46 @@
+# Prevent OS clutter everywhere
+.DS_Store
+Thumbs.db
+*.log
+
+# ----------------------------------------------------------------------
+# Flutter & Dart (Matches root or any subdirectory)
+# ----------------------------------------------------------------------
+**/build/
+**/.dart_tool/
+**/.pub/
+**/.pub-cache/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+
+# ----------------------------------------------------------------------
+# Platform Build Artifacts & Ephemeral Folders
+# ----------------------------------------------------------------------
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/macOS/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# ----------------------------------------------------------------------
+# IDEs & Environments
+# ----------------------------------------------------------------------
+**/.idea/
+**/*.iml
+**/.vscode/*
+!**/.vscode/launch.json
+!**/.vscode/tasks.json
+.env
+.env.*
+
+
+**/assets/flashcards 
+**/assets/flashcards_manifest.json
+**/assets/.build_cache.json

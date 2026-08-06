@@ -73,7 +73,19 @@ class _FlashcardScreenState extends State<FlashcardScreen>
     setState(() => _isFront = !_isFront);
   }
 
+  void _handleHorizontalDrag(DragEndDetails details) {
+    final velocity = details.primaryVelocity ?? 0;
+    if (velocity < -200) {
+      // Swiped Left -> Falsch / Wrong
+      _rate(false);
+    } else if (velocity > 200) {
+      // Swiped Right -> Richtig / Correct
+      _rate(true);
+    }
+  }
+
   Future<void> _rate(bool known) async {
+    if (_currentIndex >= _cards.length) return;
     final studyCard = _cards[_currentIndex];
 
     await _flashcardService.rateCard(studyCard.card.id, known);
@@ -215,40 +227,6 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                       final angle = _animation.value * pi;
                       final showBack = angle > pi / 2;
 
-                      // // Background decoration for the FRONT of the card
-                      // final frontCardDecoration = BoxDecoration(
-                      //   color: Colors.white,
-                      //   borderRadius: BorderRadius.circular(20),
-                      //   image: const DecorationImage(
-                      //     image: AssetImage('assets/images/card_front_bg.png'),
-                      //     fit: BoxFit.cover,
-                      //   ),
-                      //   boxShadow: [
-                      //     BoxShadow(
-                      //       color: Colors.black.withValues(alpha: 0.08),
-                      //       blurRadius: 12,
-                      //       offset: const Offset(0, 4),
-                      //     ),
-                      //   ],
-                      // );
-
-                      // // Background decoration for the BACK of the card
-                      // final backCardDecoration = BoxDecoration(
-                      //   color: const Color(0xFFF0F4F8),
-                      //   borderRadius: BorderRadius.circular(20),
-                      //   image: const DecorationImage(
-                      //     image: AssetImage('assets/images/card_back_bg.png'),
-                      //     fit: BoxFit.cover,
-                      //   ),
-                      //   boxShadow: [
-                      //     BoxShadow(
-                      //       color: Colors.black.withValues(alpha: 0.08),
-                      //       blurRadius: 12,
-                      //       offset: const Offset(0, 4),
-                      //     ),
-                      //   ],
-                      // );
-
                       Matrix4 perspective() =>
                           Matrix4.identity()..setEntry(3, 2, 0.001);
 
@@ -261,11 +239,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                             maintainState: true,
                             child: GestureDetector(
                               onTap: _flipCard,
+                              onHorizontalDragEnd: _handleHorizontalDrag,
                               child: Transform(
                                 transform: perspective()..rotateY(angle),
                                 alignment: Alignment.center,
                                 child: Container(
-                                  // decoration: frontCardDecoration,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(20),
                                     child: _CardImage(
@@ -283,11 +261,11 @@ class _FlashcardScreenState extends State<FlashcardScreen>
                             maintainState: true,
                             child: GestureDetector(
                               onTap: _flipCard,
+                              onHorizontalDragEnd: _handleHorizontalDrag,
                               child: Transform(
                                 transform: perspective()..rotateY(angle - pi),
                                 alignment: Alignment.center,
                                 child: Container(
-                                  // decoration: backCardDecoration,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(20),
                                     child: _CardImage(
@@ -378,7 +356,7 @@ class _CardImage extends StatelessWidget {
   }
 }
 
-// ─── HELPER WIDGETS (unchanged from the prototype) ───────────────────────────
+// ─── HELPER WIDGETS ──────────────────────────────────────────────────────────
 
 class _CompactStat extends StatelessWidget {
   final IconData icon;

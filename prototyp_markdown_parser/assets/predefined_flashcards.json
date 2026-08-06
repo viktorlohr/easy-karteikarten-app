@@ -1,0 +1,98 @@
+[
+  {
+    "id": "geo_kreuzprodukt_bedeutung",
+    "front": "Welche geometrische Bedeutung hat das Ergebnis von $\\vec{a}\\times\\vec{b}$?",
+    "back": "1. Der Ergebnisvektor steht sowohl auf $\\vec{a}$ als auch auf $\\vec{b}$ senkrecht.\n\n:::svg\n<svg viewBox=\"0 0 200 160\" xmlns=\"http://www.w3.org/2000/svg\">\n  <polygon points=\"20,140 100,120 130,60 50,80\" fill=\"#cccccc\" fill-opacity=\"0.3\"/>\n  <line x1=\"20\" y1=\"140\" x2=\"100\" y2=\"120\" stroke=\"blue\" stroke-width=\"2\"/>\n  <polygon points=\"100,120 94,116 96,124\" fill=\"blue\"/>\n  <text x=\"105\" y=\"125\" font-size=\"12\" fill=\"blue\">a</text>\n  <line x1=\"20\" y1=\"140\" x2=\"50\" y2=\"80\" stroke=\"green\" stroke-width=\"2\"/>\n  <polygon points=\"50,80 46,88 54,86\" fill=\"green\"/>\n  <text x=\"35\" y=\"75\" font-size=\"12\" fill=\"green\">b</text>\n  <line x1=\"20\" y1=\"140\" x2=\"20\" y2=\"30\" stroke=\"red\" stroke-width=\"2\"/>\n  <polygon points=\"20,30 16,38 24,38\" fill=\"red\"/>\n  <text x=\"25\" y=\"25\" font-size=\"12\" fill=\"red\">a × b</text>\n  <text x=\"60\" y=\"105\" font-size=\"10\" fill=\"#666666\">A_Parallelogramm</text>\n</svg>\n:::\n\n2. Die Länge des Ergebnisvektors entspricht der Fläche des von $\\vec{a}$ und $\\vec{b}$ aufgespannten Parallelogramms.\n\n$$A_{Parallelogramm}=|\\vec{a} \\times \\vec{b}|$$\n\n$$A_{Dreieck}=0{,}5 \\cdot |\\vec{a} \\times \\vec{b}|$$",
+    "tags": ["Geometrie"]
+  },
+  {
+    "id": "an_001",
+    "front": "Nullstellen einer Funktion?",
+    "back": "Ansatz: Funktion mit 0 gleichsetzen\n\n$$f(x)=0$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_002",
+    "front": "Nullstellen: Lineare Funktion\n\nz.B.: $f(x)=4x-12$",
+    "back": "Einfach umstellen:\n\n$$4x-12=0$$\n\n$$4x=12$$\n\n$$x=3$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_003",
+    "front": "Nullstellen: Quadratische Funktion\n\n$$f(x)=2x^2+6x-8$$",
+    "back": "$$2x^2+6x-8=0$$\n\n\"Mitternachtsformel\"\n\n$$x_{1,2}=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$\n\n$$x_{1,2}=\\frac{-6\\pm\\sqrt{6^2-4\\cdot2\\cdot(-8)}}{2\\cdot2}$$\n\n$$x_{1}=1,\\;x_{2}=-4$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_004",
+    "front": "Nullstellen: Funktion 3. Grades",
+    "back": "1. Schritt: $x$ Ausklammern\n\n2. Schritt: Mitternachtsformel in der Klammer anwenden\n\n$$2x^3+2x^2-24x=0$$\n\n$$x\\cdot(2x^2+2x-24)=0$$\n\n$$=> x_{1}=0$$\n\n$$x_{2,3}=...Mitternachtsformel$$\n\n$$=> x_{2}=3,\\;x_{3}=-4$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_005",
+    "front": "Nullstellen: Funktion 3. Grades\n\n$$f(x)=3x^3+81$$",
+    "back": "Auflösen:\n\n$$3x^3+81=0$$\n\n$$3x^3=-81$$\n\n$$x^3=-27$$\n\n$$x=\\sqrt[3]{-27}=-9$$\n\n(Die Wurzel einer negativen Zahl ist hier möglich, da es eine ungerade Wurzel ist)",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_006",
+    "front": "Nullstellen: Gebrochene Funktion\n\n$$f(x)=\\frac{4x-12}{x^2-4}$$",
+    "back": "Zähler mit 0 gleichsetzen:\n\n$$4x-12=0$$\n\n$$x=3$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_007",
+    "front": "Nullstellen: e-Funktion\n\n$$f(x)=(2x-4)\\cdot{e^{3x+4}}$$",
+    "back": "\"e kann niemals 0 werden!\"\n\n$${e^{3x+4}}\\neq0$$\n\n\"Also kann nur der Faktor in der Klammer 0 werden!\"\n\n$$2x-4=0$$\n\n$$x=2$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_008",
+    "front": "Nullstellen: ln-Funktion\n\n$$f(x)=ln(2x-5)$$",
+    "back": "$$ln(2x-5)=0$$\n\n$${e^{ln(2x-5)}}=e^0$$\n\n$$2x-5=1$$\n\n$$x=3$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_009",
+    "front": "Definitionsmenge",
+    "back": "1. Der Nenner muss ungleich 0 sein: $N \\neq 0$\n\n2. Unter einer Wurzel müssen Werte größer oder gleich 0 sein: $\\sqrt{\\ge 0}$\n\n3. Im $ln$ muss immer etwas größeres als 0 stehen: $ln(>0)$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_010",
+    "front": "Definitionsmenge angeben:\n\n$$f_1(x)=\\frac{4x-12}{x-4}$$\n\n$$f_2(x)=\\sqrt{2x-8}$$\n\n$$f_3(x)=ln(x+1)$$",
+    "back": "$$D_{f_1}=\\mathbb{R}\\setminus\\{4\\}$$\n\n$$D_{f_2}=[4;\\infty[$$\n\n$$D_{f_3}=]-1;\\infty[$$",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_011",
+    "front": "Wertemenge",
+    "back": "1. Berechne die Grenzen an den Rändern des Definitionsbereichs: $\\lim\\limits_{x \\rightarrow\\pm\\infty}{f(x)}$\n\n2. Berechne die Extrema inklusive y-Wert.\n\n3. Erstelle eine Skizze mit den aus 1. und 2. berechneten Werten.",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_012",
+    "front": "$x$-Achsenschnittpunkte",
+    "back": "1. Setze $f(x)=0$ (für die Nullstellen)\n\n2. Löse Gleichung nach $x$ auf\n\n3. Schreibe die Ergebnisse als Punkte; z.B. N(7|0)",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_013",
+    "front": "$y$-Achsenschnittpunkt",
+    "back": "1. $f(0)$ bestimmen; setze $0$ in $f(x)$ ein\n\n2. Schreibe das Ergebnis als Punkt; z.B. S(0|7)",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_014",
+    "front": "Symmetrie einer Funktion untersuchen",
+    "back": "1. Setze $-x$ in die Funktion $f$ ein: $f(-x)$\n\n2. Vereinfache die Funktion\n\n3. Falls $f(-x)=f(x)$ dann liegt Achsensymmetrie zur y-Achse vor. Falls $f(-x)=-f(x)$ dann liegt Punktsymmetrie zum Ursprung vor.",
+    "tags": ["Analysis"]
+  },
+  {
+    "id": "an_015",
+    "front": "Gib je ein Beispiel für eine achsensymmetrische Funktion zur y-Achse und für eine punktsymmetrische Funktion zum Ursprung an.",
+    "back": "1. Achsensymmetrisch zur y-Achse: $f(x)=x^2$\n\n2. Punktsymmetrisch zum Ursprung: $f(x)=x^3$",
+    "tags": ["Analysis"]
+  }
+]

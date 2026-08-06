@@ -1,0 +1,75 @@
+% ---------------------------------------------------------------------
+% praeambel_app_standalone.tex
+% ---------------------------------------------------------------------
+
+% ---- Page shape ----
+% ---- Display-Format für Smartphones (z. B. 90mm x 160mm) ----
+\usepackage[
+    paperwidth=105mm,
+    paperheight=148mm,
+    margin=5mm
+]{geometry}
+
+
+% font
+\usepackage{lmodern}
+\usepackage[sfdefault]{roboto}
+\usepackage[T1]{fontenc}
+\usepackage{eulervm}
+\usepackage{bm}
+
+
+% ---- Language / Encoding ----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}  
+
+% improve line breaks and hyphenation
+\usepackage{hyphenat}
+\usepackage{microtype}
+\usepackage{impnattypo}
+
+% ---- Math ----
+\usepackage{amsmath}          
+\usepackage{amssymb}          
+\usepackage{extarrows}        
+
+% ---- Tables ----
+\usepackage{array}            
+\usepackage{tabularx}
+\usepackage{diagbox}          
+
+% Defined custom column type 'C' for fixed-width centered columns (e.g. NEWNEWNEW rule)
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% ---- Graphics / Diagrams ----
+\usepackage{graphicx}         
+\usepackage{tikz}             
+\usetikzlibrary{patterns}
+
+% ---- Custom Math Commands ----
+\newcommand{\R}{\mathbb{R}}                     
+\newcommand{\D}{\mathbb{D}}                     
+\newcommand{\abs}[1]{\left|#1\right|}           
+\newcommand{\mal}{\cdot}                        
+\newcommand{\std}{\sigma}                       
+
+% ---- Card Environments ----
+% ---- Card Environments (für Mobilgeräte optimiert) ----
+\newenvironment{frage}{%
+	\clearpage
+	\vspace*{\fill}
+	\begin{center}\large
+}{%
+	\end{center}
+	\vspace*{\fill}
+}
+
+\newenvironment{antwort}{%
+	\clearpage
+	\vspace*{\fill}
+	\begin{center}
+}{%
+	\end{center}
+	\vspace*{\fill}
+}

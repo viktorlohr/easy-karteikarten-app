@@ -10,6 +10,9 @@
     margin=5mm
 ]{geometry}
 
+% ---- Background images (odd/even pages) ----
+\usepackage{eso-pic}
+
 
 % font
 \usepackage{lmodern}
@@ -72,4 +75,21 @@
 }{%
 	\end{center}
 	\vspace*{\fill}
+}
+
+
+
+
+% adjust these paths/filenames to your actual image files
+\newcommand{\BgOdd}{background_odd.pdf}
+\newcommand{\BgEven}{background_even.pdf}
+
+\AddToShipoutPictureBG{%
+  \AtPageLowerLeft{%
+    \ifodd\value{page}
+      \includegraphics[width=\paperwidth,height=\paperheight]{\BgOdd}%
+    \else
+      \includegraphics[width=\paperwidth,height=\paperheight]{\BgEven}%
+    \fi
+  }%
 }

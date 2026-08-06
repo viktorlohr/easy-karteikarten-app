@@ -1,2 +1,4 @@
 flashcards_source/.rendered/
 assets/.build_cache.json
+assets/flashcards/
+assets/flashcards_manifest.json

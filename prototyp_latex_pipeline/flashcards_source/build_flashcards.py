@@ -272,7 +272,11 @@ def main() -> int:
     print(f"Page count check OK: {actual_pages} pages for {len(cards)} cards.")
 
     cache_path = OUT_ASSETS / ".build_cache.json"
-    cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    cache = (
+        json.loads(cache_path.read_text(encoding="utf-8"))
+        if cache_path.exists()
+        else {}
+    )
 
     def save_cache() -> None:
         cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -288,10 +292,16 @@ def main() -> int:
         back_page = 2 * i + 2
 
         front_path = (
-            OUT_ASSETS / "flashcards" / card.category.lower() / f"{card.card_id}_front.webp"
+            OUT_ASSETS
+            / "flashcards"
+            / card.category.lower()
+            / f"{card.card_id}_front.webp"
         )
         back_path = (
-            OUT_ASSETS / "flashcards" / card.category.lower() / f"{card.card_id}_back.webp"
+            OUT_ASSETS
+            / "flashcards"
+            / card.category.lower()
+            / f"{card.card_id}_back.webp"
         )
 
         manifest.append(

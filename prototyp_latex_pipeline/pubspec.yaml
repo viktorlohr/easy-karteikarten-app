@@ -23,6 +23,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+    - assets/datenschutz.txt
     - assets/images/
     - assets/flashcards/
     - assets/flashcards/analysis/

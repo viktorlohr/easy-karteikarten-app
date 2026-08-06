@@ -11,9 +11,11 @@ assets/flashcards_manifest.json
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # User-specific stuff

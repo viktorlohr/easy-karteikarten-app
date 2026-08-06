@@ -71,9 +71,7 @@ class HomeScreen extends StatelessWidget {
                   const MenuButton(
                     label: 'Lern-Statistiken',
                     icon: Icons.insert_chart_outlined,
-                    destination: PlaceholderScreen(
-                      title: 'Langzeit-Statistiken kommen bald',
-                    ),
+                    destination: PlaceholderScreen(title: ''),
                   ),
                 ],
               ),

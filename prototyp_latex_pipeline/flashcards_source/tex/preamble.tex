@@ -26,6 +26,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}  
+\usepackage{csquotes}
 
 % improve line breaks and hyphenation
 \usepackage{hyphenat}
@@ -50,12 +51,21 @@
 \usepackage{tikz}             
 \usetikzlibrary{patterns}
 
+% blockquotes
+\usepackage[most]{tcolorbox}
+\usepackage[svgnames]{xcolor}
+
+
+% enumerations
+\usepackage{enumerate}
+
 % ---- Custom Math Commands ----
 \newcommand{\R}{\mathbb{R}}                     
 \newcommand{\D}{\mathbb{D}}                     
 \newcommand{\abs}[1]{\left|#1\right|}           
 \newcommand{\mal}{\cdot}                        
-\newcommand{\std}{\sigma}                       
+\newcommand{\std}{\sigma}
+\newcommand{\Var}{\text{Var}}                       
 
 % ---- Card Environments ----
 % ---- Card Environments (für Mobilgeräte optimiert) ----
@@ -98,4 +108,16 @@
       \includegraphics[width=\paperwidth,height=\paperheight]{\BgEven}%
     \fi
   }%
+}
+
+
+\newtcolorbox{marked}{
+  enhanced,
+  frame hidden,       
+  colback=gray!5!white,       
+  borderline west={3pt}{0pt}{SkyBlue}, 
+  boxrule=0pt,         
+  rounded corners,
+%   halign=center,       
+%   valign=center,       
 }
